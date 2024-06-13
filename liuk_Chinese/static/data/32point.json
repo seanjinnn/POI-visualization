@@ -1,0 +1,606 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.78972,
+          -10.180569
+        ]
+      },
+      "properties": {
+        "FID": 0,
+        "type": "中餐厅",
+        "X": -4.78972,
+        "Y": -10.180569
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.454809,
+          -5.3116155000000003
+        ]
+      },
+      "properties": {
+        "FID": 1,
+        "type": "外国餐厅",
+        "X": 5.454809,
+        "Y": -5.3116155000000003
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.541174,
+          3.0849001
+        ]
+      },
+      "properties": {
+        "FID": 2,
+        "type": "陵园",
+        "X": -13.541174,
+        "Y": 3.0849001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.517003000000001,
+          2.9561226
+        ]
+      },
+      "properties": {
+        "FID": 3,
+        "type": "风景名胜",
+        "X": -11.517003000000001,
+        "Y": 2.9561226
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0025337000000001,
+          20.625382999999999
+        ]
+      },
+      "properties": {
+        "FID": 4,
+        "type": "公司企业",
+        "X": -1.0025337000000001,
+        "Y": 20.625382999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.860975,
+          7.2072799999999999
+        ]
+      },
+      "properties": {
+        "FID": 5,
+        "type": "农场",
+        "X": -16.860975,
+        "Y": 7.2072799999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.168663,
+          17.086635999999999
+        ]
+      },
+      "properties": {
+        "FID": 6,
+        "type": "证券公司",
+        "X": 3.168663,
+        "Y": 17.086635999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.8353560000000009,
+          -10.78299
+        ]
+      },
+      "properties": {
+        "FID": 7,
+        "type": "超市",
+        "X": -8.8353560000000009,
+        "Y": -10.78299
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9714622000000004,
+          -15.471686
+        ]
+      },
+      "properties": {
+        "FID": 8,
+        "type": "数码电子",
+        "X": -6.9714622000000004,
+        "Y": -15.471686
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.902718,
+          -1.7882233999999999
+        ]
+      },
+      "properties": {
+        "FID": 9,
+        "type": "家具城",
+        "X": 20.902718,
+        "Y": -1.7882233999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.909751999999999,
+          10.937875999999999
+        ]
+      },
+      "properties": {
+        "FID": 10,
+        "type": "宠物市场",
+        "X": 10.909751999999999,
+        "Y": 10.937875999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.7402569,
+          -7.8602460000000001
+        ]
+      },
+      "properties": {
+        "FID": 11,
+        "type": "商业街",
+        "X": 0.7402569,
+        "Y": -7.8602460000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6814546999999997,
+          -18.613931999999998
+        ]
+      },
+      "properties": {
+        "FID": 12,
+        "type": "火车站",
+        "X": 4.6814546999999997,
+        "Y": -18.613931999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.6137033000000001,
+          8.8657330000000005
+        ]
+      },
+      "properties": {
+        "FID": 13,
+        "type": "停车场",
+        "X": -6.6137033000000001,
+        "Y": 8.8657330000000005
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.168663,
+          17.086635999999999
+        ]
+      },
+      "properties": {
+        "FID": 14,
+        "type": "证券公司",
+        "X": 3.168663,
+        "Y": 17.086635999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1799903,
+          4.3401154999999996
+        ]
+      },
+      "properties": {
+        "FID": 15,
+        "type": "银行",
+        "X": 5.1799903,
+        "Y": 4.3401154999999996
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0121545999999997,
+          18.166589999999999
+        ]
+      },
+      "properties": {
+        "FID": 16,
+        "type": "保险公司",
+        "X": 5.0121545999999997,
+        "Y": 18.166589999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1730835000000002,
+          12.37767
+        ]
+      },
+      "properties": {
+        "FID": 17,
+        "type": "学校",
+        "X": -2.1730835000000002,
+        "Y": 12.37767
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.4704056000000003,
+          14.354538
+        ]
+      },
+      "properties": {
+        "FID": 18,
+        "type": "天文馆",
+        "X": -6.4704056000000003,
+        "Y": 14.354538
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1606852999999999,
+          22.586884999999999
+        ]
+      },
+      "properties": {
+        "FID": 19,
+        "type": "传媒机构",
+        "X": 1.1606852999999999,
+        "Y": 22.586884999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2264189999999999,
+          10.868923000000001
+        ]
+      },
+      "properties": {
+        "FID": 20,
+        "type": "住宅小区",
+        "X": -7.2264189999999999,
+        "Y": 10.868923000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.582051999999999,
+          -6.6433415
+        ]
+      },
+      "properties": {
+        "FID": 21,
+        "type": "购物中心",
+        "X": 12.582051999999999,
+        "Y": -6.6433415
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.474904,
+          16.433589999999999
+        ]
+      },
+      "properties": {
+        "FID": 22,
+        "type": "汽车服务",
+        "X": -14.474904,
+        "Y": 16.433589999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1430876999999999,
+          -4.0081787000000002
+        ]
+      },
+      "properties": {
+        "FID": 23,
+        "type": "KTV",
+        "X": -1.1430876999999999,
+        "Y": -4.0081787000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5138685999999999,
+          7.5096407000000003
+        ]
+      },
+      "properties": {
+        "FID": 24,
+        "type": "游泳馆",
+        "X": -2.5138685999999999,
+        "Y": 7.5096407000000003
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.683831999999999,
+          -1.5960056
+        ]
+      },
+      "properties": {
+        "FID": 25,
+        "type": "综合医院",
+        "X": -17.683831999999999,
+        "Y": -1.5960056
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.728129,
+          17.591104999999999
+        ]
+      },
+      "properties": {
+        "FID": 26,
+        "type": "政府机关",
+        "X": -5.728129,
+        "Y": 17.591104999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3521233000000001,
+          -2.0790731999999998
+        ]
+      },
+      "properties": {
+        "FID": 27,
+        "type": "宾馆酒店",
+        "X": -3.3521233000000001,
+        "Y": -2.0790731999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.7327689999999993,
+          -10.228847
+        ]
+      },
+      "properties": {
+        "FID": 28,
+        "type": "药房",
+        "X": -8.7327689999999993,
+        "Y": -10.228847
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.27373,
+          5.8695225999999998
+        ]
+      },
+      "properties": {
+        "FID": 29,
+        "type": "公园",
+        "X": -12.27373,
+        "Y": 5.8695225999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5321119999999997,
+          4.5808619999999998
+        ]
+      },
+      "properties": {
+        "FID": 30,
+        "type": "动物园",
+        "X": -8.5321119999999997,
+        "Y": 4.5808619999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1481075000000001,
+          22.860958
+        ]
+      },
+      "properties": {
+        "FID": 31,
+        "type": "产业园区",
+        "X": -3.1481075000000001,
+        "Y": 22.860958
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8517029999999997,
+          -4.3177110000000001
+        ]
+      },
+      "properties": {
+        "FID": 32,
+        "type": "咖啡厅",
+        "X": 5.8517029999999997,
+        "Y": -4.3177110000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4741343999999996,
+          -14.383791
+        ]
+      },
+      "properties": {
+        "FID": 33,
+        "type": "飞机场",
+        "X": 5.4741343999999996,
+        "Y": -14.383791
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.373101,
+          -11.343677
+        ]
+      },
+      "properties": {
+        "FID": 34,
+        "type": "蔬菜市场",
+        "X": -13.373101,
+        "Y": -11.343677
+      }
+    }
+  ]
+}

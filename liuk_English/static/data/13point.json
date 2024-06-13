@@ -1,0 +1,232 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.6837360800000001,
+          -7.2474258450000004
+        ]
+      },
+      "properties": {
+        "FID": 0,
+        "type": "Food & Beverages",
+        "x": 2.6837360800000001,
+        "y": -7.2474258450000004
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.77444981,
+          3.7041714400000001
+        ]
+      },
+      "properties": {
+        "FID": 1,
+        "type": "Tourist Attraction",
+        "x": -10.77444981,
+        "y": 3.7041714400000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0484421960000001,
+          21.771921079999998
+        ]
+      },
+      "properties": {
+        "FID": 2,
+        "type": "Enterprises",
+        "x": -1.0484421960000001,
+        "y": 21.771921079999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.679246429999999,
+          -5.1433916350000004
+        ]
+      },
+      "properties": {
+        "FID": 3,
+        "type": "Shopping",
+        "x": 13.679246429999999,
+        "y": -5.1433916350000004
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4716854279999998,
+          -16.260311059999999
+        ]
+      },
+      "properties": {
+        "FID": 4,
+        "type": "Transportation Service",
+        "x": 5.4716854279999998,
+        "y": -16.260311059999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2404219000000003,
+          2.7530052060000001
+        ]
+      },
+      "properties": {
+        "FID": 5,
+        "type": "Finance & Insurance Service",
+        "x": 6.2404219000000003,
+        "y": 2.7530052060000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.98419188999999996,
+          14.011990190000001
+        ]
+      },
+      "properties": {
+        "FID": 6,
+        "type": "Science/Culture & Education Service",
+        "x": -0.98419188999999996,
+        "y": 14.011990190000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0976520499999998,
+          11.866633670000001
+        ]
+      },
+      "properties": {
+        "FID": 7,
+        "type": "Commercial House",
+        "x": -7.0976520499999998,
+        "y": 11.866633670000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.91175522,
+          15.30614535
+        ]
+      },
+      "properties": {
+        "FID": 8,
+        "type": "Daily Life Service",
+        "x": -14.91175522,
+        "y": 15.30614535
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0725796870000002,
+          5.6668660219999998
+        ]
+      },
+      "properties": {
+        "FID": 9,
+        "type": "Sports & Recreation",
+        "x": -6.0725796870000002,
+        "y": 5.6668660219999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.04092558,
+          -2.7224142910000002
+        ]
+      },
+      "properties": {
+        "FID": 10,
+        "type": "Medical Service",
+        "x": -16.04092558,
+        "y": -2.7224142910000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.5326525350000004,
+          16.846592730000001
+        ]
+      },
+      "properties": {
+        "FID": 11,
+        "type": "Governmental Organization & Social Group",
+        "x": -6.5326525350000004,
+        "y": 16.846592730000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3275153290000001,
+          -1.337897777
+        ]
+      },
+      "properties": {
+        "FID": 12,
+        "type": "Accommodation Service",
+        "x": -3.3275153290000001,
+        "y": -1.337897777
+      }
+    }
+  ]
+}

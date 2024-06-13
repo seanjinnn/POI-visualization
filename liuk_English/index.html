@@ -1,0 +1,1479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>无标题文档</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #393939;
+        }
+
+        p {
+            font-family: 'Open Sans';
+            margin: 0;
+            font-size: 13px;
+        }
+
+        .auto_hidden {
+
+            width: 204px;
+            border-top: 1px solid #333;
+
+            border-bottom: 1px solid #333;
+
+            border-left: 1px solid #333;
+
+            border-right: 1px solid #333;
+
+            position: absolute;
+
+            background-color: #29ffe7;
+
+            height: 300px;
+
+            display: none;
+
+        }
+
+        .auto_show {
+
+            width: 204px;
+
+            border-top: 1px solid #333;
+
+            border-bottom: 1px solid #333;
+
+            border-left: 1px solid #333;
+
+            border-right: 1px solid #333;
+
+            position: absolute;
+
+            z-index: 9999; /* 设置对象的层叠顺序 */
+
+            display: block;
+
+        }
+
+        .auto_onmouseover {
+
+            color: #212cff;
+
+            background-color: highlight;
+
+            width: 100%;
+
+        }
+
+        .auto_onmouseout {
+
+            color: #000000;
+
+            width: 100%;
+
+            background-color: #ffffff;
+
+        }
+
+        .tip {
+            position: relative;
+            background-color: #383838;
+            margin: 0 0 10px 0;
+            top: 30px;
+            left: 20px;
+            width: 400px;
+            height: 60px;
+            color: white;
+            text-align: center;
+            padding: 50px 0 0 0;
+            border-radius: 10px;
+            font-family: sans-serif;
+        }
+
+        .tip:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 0;
+            border: 8px solid;
+        }
+
+        .top:after {
+            border-bottom-color: #383838;
+            left: 50%;
+            bottom: 100%;
+            margin-left: -15px;
+
+        }
+
+        .file {
+            line-height: 25px;
+            background-color: #383838;
+            color: white;
+            padding: 5px;
+            float: bottom;
+            font-size: 15px;
+            vertical-align: middle;
+            position: relative;
+            border: 2px solid #fff;
+            border-radius: 3px
+
+        }
+
+        .file input {
+            width: 100px;
+            height: 35px;
+            opacity: 0;
+            filter: alpha(opacity=0);
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+
+        .fil {
+            width: 60px;
+            height: 35px;
+            line-height: 25px;
+            text-align: center;
+            background-color: #383838;
+            color: white;
+            font-size: 15px;
+            vertical-align: middle;
+            position: relative;
+            border-radius: 3px;
+            border: none
+
+        }
+
+        .an {
+            width: 100px;
+            height: 20px;
+            line-height: 25px;
+            text-align: center;
+            background-color: #383838;
+            color: white;
+            font-size: 15px;
+            vertical-align: middle;
+            position: relative;
+            border-radius: 3px
+        }
+    </style>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="liuk.css" rel="stylesheet" type="text/css"/>
+    <script language="javascript">
+
+        <!--
+
+        var $ = function (id) {
+
+            return "string" == typeof id ? document.getElementById(id) : id;
+
+        }
+
+        var Bind = function (object, fun) {
+
+            return function () {
+
+                return fun.apply(object, arguments);
+
+            }
+
+        }
+
+        function AutoComplete(obj, autoObj, arr) {
+
+            this.obj = $(obj);        //输入框
+
+            this.autoObj = $(autoObj);//DIV的根节点
+
+            this.value_arr = arr;        //不要包含重复值
+
+            this.index = -1;          //当前选中的DIV的索引
+
+            this.search_value = "";   //保存当前搜索的字符
+
+        }
+
+        AutoComplete.prototype = {
+
+            //初始化DIV的位置
+
+            init: function () {
+
+                this.autoObj.style.left = this.obj.offsetLeft + "px";
+
+                this.autoObj.style.top = this.obj.offsetTop + this.obj.offsetHeight + "px";
+
+                this.autoObj.style.width = this.obj.offsetWidth - 2 + "px";//减去边框的长度2px
+
+            },
+
+            //删除自动完成需要的所有DIV
+
+            deleteDIV: function () {
+
+                while (this.autoObj.hasChildNodes()) {
+
+                    this.autoObj.removeChild(this.autoObj.firstChild);
+
+                }
+
+                this.autoObj.className = "auto_hidden";
+
+            },
+
+            //设置值
+
+            setValue: function (_this) {
+
+                return function () {
+
+                    _this.obj.value = this.seq;
+
+                    _this.autoObj.className = "auto_hidden";
+
+                }
+
+            },
+
+            //模拟鼠标移动至DIV时，DIV高亮
+
+            autoOnmouseover: function (_this, _div_index) {
+
+                return function () {
+
+                    _this.index = _div_index;
+
+                    var length = _this.autoObj.children.length;
+
+                    for (var j = 0; j < length; j++) {
+
+                        if (j != _this.index) {
+
+                            _this.autoObj.childNodes[j].className = 'auto_onmouseout';
+
+                        } else {
+
+                            _this.autoObj.childNodes[j].className = 'auto_onmouseover';
+
+                        }
+
+                    }
+
+                }
+
+            },
+
+            //更改classname
+
+            changeClassname: function (length) {
+
+                for (var i = 0; i < length; i++) {
+
+                    if (i != this.index) {
+
+                        this.autoObj.childNodes[i].className = 'auto_onmouseout';
+
+                    } else {
+
+                        this.autoObj.childNodes[i].className = 'auto_onmouseover';
+
+                        this.obj.value = this.autoObj.childNodes[i].seq;
+
+                    }
+
+                }
+
+            }
+
+            ,
+
+            //响应键盘
+
+            pressKey: function (event) {
+
+                var length = this.autoObj.children.length;
+
+                //光标键"↓"
+
+                if (event.keyCode == 40) {
+
+                    ++this.index;
+
+                    if (this.index > length) {
+
+                        this.index = 0;
+
+                    } else if (this.index == length) {
+
+                        this.obj.value = this.search_value;
+
+                    }
+
+                    this.changeClassname(length);
+
+                }
+
+                //光标键"↑"
+
+                else if (event.keyCode == 38) {
+
+                    this.index--;
+
+                    if (this.index < -1) {
+
+                        this.index = length - 1;
+
+                    } else if (this.index == -1) {
+
+                        this.obj.value = this.search_value;
+
+                    }
+
+                    this.changeClassname(length);
+
+                }
+
+                //回车键
+
+                else if (event.keyCode == 13) {
+
+                    this.autoObj.className = "auto_hidden";
+
+                    this.index = -1;
+
+                } else {
+
+                    this.index = -1;
+
+                }
+
+            },
+
+            //程序入口
+
+            start: function (event) {
+
+                if (event.keyCode != 13 && event.keyCode != 38 && event.keyCode != 40) {
+
+                    this.init();
+
+                    this.deleteDIV();
+
+                    this.search_value = this.obj.value;
+
+                    var valueArr = this.value_arr;
+
+                    valueArr.sort();
+
+                    if (this.obj.value.replace(/(^\s*)|(\s*$)/g, '') == "") {
+                        return;
+                    }//值为空，退出
+
+                    try {
+                        var reg = new RegExp("(" + this.obj.value + ")", "i");
+                    }
+
+                    catch (e) {
+                        return;
+                    }
+
+                    var div_index = 0;//记录创建的DIV的索引
+
+                    for (var i = 0; i < valueArr.length; i++) {
+
+                        if (reg.test(valueArr[i])) {
+
+                            var div = document.createElement("div");
+
+                            div.className = "auto_onmouseout";
+
+                            div.seq = valueArr[i];
+
+                            div.onclick = this.setValue(this);
+
+                            div.onmouseover = this.autoOnmouseover(this, div_index);
+
+                            div.innerHTML = valueArr[i].replace(reg, "<strong>$1</strong>");//搜索到的字符粗体显示
+
+                            this.autoObj.appendChild(div);
+
+                            this.autoObj.className = "auto_show";
+
+                            div_index++;
+
+                        }
+
+                    }
+
+                }
+
+                this.pressKey(event);
+
+                window.onresize = Bind(this, function () {
+                    this.init();
+                });
+
+            }
+
+        }
+
+        //-->
+
+    </script>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.css' rel='stylesheet'/>
+</head>
+
+<body>
+<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/turf/v3.0.11/turf.min.js'></script>
+<script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.0.9/mapbox-gl-draw.js'></script>
+<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.0.9/mapbox-gl-draw.css'
+      type='text/css'/>
+<div class="width">
+    <div style="width:1915px; clear:both;">
+        <div style="padding:0 0 0 0px;position:absolute;color:#ffca54;font-size: 30px;top:2%">Visualization Tool for
+            Exploring POI Configurations of Urban Regions
+        </div>
+        <div style="height: 75px;width:535px;  padding:0 0 0 1180px;">
+
+            <div class="shous" style="padding:10px 0 0 0">
+
+                <form action="" name="fil" class="an">
+
+
+                    <i class="fa fa-cloud-download"></i>
+                    <a href="#" onClick="downLoad()" style="font-size:12px;color:#fff">example</a>
+                </form>
+                <span action="" name="file" class="file">
+
+                    <i class="fa fa-file"></i>
+                    upload file
+                    <input type="file" id="upCsv" name="uploadCSV">
+                </span>
+
+                <input id="ajaxSubmit" type="button" value="update" class="fil">
+                <input type="text" id="o" class="sho" placeholder="search POI type" onkeyup="autoComplete.start(event)">
+                <button id="shen" type="button">&nbsp</button>
+                <div class="auto_hidden" id="auto" style="height:875px;overflow: auto"><!--自动完成 DIV--></div>
+            </div>
+
+        </div>
+
+
+        <div>
+            <div style="width:275px; height:875px; float:left; overflow-y:auto; overflow-x:hidden;">
+                <ul class="accordion" id="accordion">
+                    <li id="one" class="files"><a href="#one"
+                                                  style="font-size: 18px;padding: 12px 10px 0 40px;">Metro line 1</a>
+                        <ul class="sub-menu">
+
+                        </ul>
+                    </li>
+                    <li id="two" class="mail"><a href="#two"
+                                                 style="font-size: 18px;padding: 12px 10px 0 40px;">Metro line 2</a>
+                        <ul class="sub-menu">
+
+                        </ul>
+                    </li>
+                    <li id="three" class="cloud"><a href="#three" style="font-size: 18px;padding: 12px 10px 0 40px;">Metro line 3</a>
+                        <ul class="sub-menu">
+
+                        </ul>
+                    </li>
+                    <li id="four" class="sign"><a href="#four"
+                                                  style="font-size: 18px;padding: 12px 10px 0 40px;">Metro line 4</a>
+                        <ul class="sub-menu">
+
+                        </ul>
+                    </li>
+                    <li id="fiv" class="fiv"><a href="#fiv" style="font-size: 18px;padding: 12px 10px 0 40px;">Metro line 5</a>
+                        <ul class="sub-menu">
+
+                        </ul>
+                    </li>
+                    <li id="six" class="six"><a href="#six" style="font-size: 18px;padding: 12px 10px 0 40px;">Metro line 7</a>
+                        <ul class="sub-menu">
+
+                        </ul>
+                    </li>
+                    <li id="seven" class="seven"><a href="#seven" style="font-size: 18px;padding: 12px 10px 0 40px;">Metro line 9</a>
+                        <ul class="sub-menu">
+
+                        </ul>
+                    </li>
+                    <li id="eight" class="eight"><a href="#eight" style="font-size: 18px;padding: 12px 10px 0 40px;">Metro line 11</a>
+                        <ul class="sub-menu">
+
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div style="width:1047px; height:875px; float:left;border:1px solid #4c4c4c;background-color: #393939"
+                 id="map1">
+            </div>
+            <div style="width:583px; height:825px; float:left; ">
+                <div style="width:583px; height:575px; margin-left:1px;clear:both;border:1px solid #4c4c4c;" id="map2">
+                </div>
+                <div style="width:583px; height:270px; margin-left:1px;border:1px solid #4c4c4c;  padding-top:30px;background-color: #393939"
+                     id="mapDiv">
+
+                    <div style="color:white;font-size:20px;background-color: #393939;margin-left:80px;margin-top:0px"
+                         id="mapDiv1"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function downLoad() {
+        var elemIF = document.createElement("iframe");
+        elemIF.src = "example_file.csv";
+        elemIF.style.display = "none";
+        document.body.appendChild(elemIF);
+
+    }
+</script>
+<script>
+
+    var autoComplete = new AutoComplete('o', 'auto', ['Charity Organizations', 'Network Science and Technology', 'Outdoor Sports Shop', 'Notarial Survey Organization', 'Bank Related', 'Company', 'Northeastern Chinese Food', 'Yon ho', 'Other Farming Forestry Animal Husbandry and Fishery Base', 'Social Group Related', 'Bank of Shanghai', 'Islamic Food', 'Supermarket', 'The Export-Import Bank of China', 'Agricultural Products Market', 'Brand Bags and Suitcases Store', 'University & College', 'China Development Bank', 'Telecommunication Company', 'Forest Farm', 'Foreign Food Restaurant', 'Stomatological Hospital', 'Park Box Office', 'Concert Hall', 'Recreation Center', 'Economical Chain Hotel', 'Photo Finishing', 'Travel Agency', 'Science & Education Cultural Place', 'CGB', 'Industrial Bank', 'NIKE', 'Building Related', 'GOME', 'Shanghai Pudong Development Bank', 'China Life Insurance Company', 'State Tax Authority', 'City Plaza', 'Chemical and Metallurgy', 'Famous Enterprise', 'ATM', 'Digital Electronics', 'Advertisement and Decoration', 'Fishing Spot', 'Other Asian Food', 'Theatre', 'Card & Chess Room', 'Four-star Hotel', 'Dessert House', 'Gym Center', 'Vegetarian Food', 'Ticket Office', 'Stationary Store', 'Train Ticket Office', 'Five-star Hotel', 'Tea House', 'Communist Youth League', 'Sports & Recreation Places', 'Shopping Centre', 'HSBC', 'Bank', 'Zhejiang Food', 'Industrial Building', 'Disco', 'CD/DVD Shop', 'Basketball Stadium', 'Horse-Betting Center', 'Residential Quarter', 'Sea Food', 'Hubei Food', 'Medical Supplies', "The People's Insurance Company of China", 'Evaluation Firm', 'Home Building Materials Market', 'Clinic', 'Finance & Insurance Institution', 'Russian Food', 'Pharmacy', 'Disease Prevention', 'Bus IC Card', 'Golf Course', 'Local Tax Authority', 'Platform', 'Funeral House', 'Exit', 'Agency', 'Shanghai Food', 'Museum', 'Industry Association', 'Aquarium', 'Motorcycle Service Related', 'Coach Ticket Office', 'Traffic Management Station', 'Shanghai Commercial Bank', 'Bank of Tokyo-Mitsubishi UFJ', 'Outdoor Gym Facility', 'Airport Departure/Arrival', 'Camping Site', 'Flower Shop', 'Skating Rink', 'Service Centre', 'Commuter Bus Station', 'Middle School', 'Media Organization', 'ABN AMRO Bank', 'Used Automobile Dealer', 'KTV', 'China Merchants Bank', 'Water Sports Centre', 'Italian Food', 'Brand Clothing Store', 'Sasa', 'China Telecom Office', 'Governmental & Social Groups Related', 'Construction Company', 'Automobile Repair', 'Town Level Government and Institution', 'Office of Securities Business', "Children's Store", 'CRC express', 'Pool Room', 'Freight Ports', "Disabled Persons' Federation", 'Public Beach', 'Huaxia Bank', 'Hotpot Restaurant', 'Social Security Organization', 'Cultural Palace', 'Standard Chartered Bank', 'Beach', 'Infectious Disease Hospital', 'Airport Related', 'Exit', 'Public Security Accreditation', 'Chinese Food Restaurant', 'Automobile Rescue', 'PARKnSHOP', 'Steak House', 'Enterprises', 'Watches Shop', 'Business Office Building', 'National View Spot', 'Comprehensive Market', 'Administration for Industry & Commerce', 'Bank of Beijing', 'China Mobile Hong Kong', 'School', 'Pet Clinic', 'Ticket Business Correlation', 'Publishing House', 'Light Rail Station', 'Chaozhou Food', 'Bookstore', 'Orthopedic Hospital', 'Home Electronics Hypermarket', 'China Construction Bank', 'Watsons', 'China Tietong Office', 'Reebok', 'China Mobile Office', 'Dazhong', 'Arts Organization', 'Ferry Ticket Office', 'Auction House', 'Telecom Office', 'Pub', 'Provincial View Spot', 'Deco Cloth Store', 'American Food', 'Audit Firm', 'Filling Station', 'Complex Food', 'Flea Market', 'Suning', 'Charging Station', 'Procuratorate', 'Vehicle Management Authority', 'Democratic Party', 'China Minsheng Bank', 'Maternity Hospital', 'Shandong Food', 'Journal Publisher', 'Cemetery', 'Taxi', 'Football Field', 'Passenger Port', 'Police Station', 'Icecream Shop', 'Tumor Hospital', 'Community Center', 'Planetarium', 'Camera Shop', 'Express Post', 'Border Crossing', 'Shops', "Consumers' Association", 'Traditional Brand', 'Golf Related', 'Shenzhen Rural Commercial Bank', 'Mediterranean Food', 'Commercial Street', 'Emergency Center', 'Building', 'Anhui Food', 'Newspaper Office', 'Carrefour', 'Amusement Park', 'Scenery Spot', 'Medical Company', 'Comprehensive Home Electronics Shopping Center', 'Beauty and Hairdressing Store', 'Court', 'Traffic Vehicle Management Related', 'Wing Hang Bank', 'Commercial-residential Building', 'Foreign Organization Related', 'German Food', 'Three-star Hotel', 'Gift Store', 'Research Institution', 'Church', 'Science & Technology Museum', 'Hunan Food', 'Badminton Court', 'Automobile Club', 'Villa', 'Bowling Hall', 'Accounting Firm', 'Nursing Home', 'District & County Level Government and Institution', 'Ping An Bank', 'Vegetable Market', 'Youth Hostel', 'Pizza Hut', 'Professional Service Firm', 'Wal-Mart', 'Park', 'China CITIC Bank', 'DBS', 'Furniture Store', 'Logistics Service', 'Parking Lot Entrance', 'Chest Hospital', 'Fujian Food', 'Rural Commercial Bank', 'Library', 'Indoor Booth', 'The Royal Bank of Scotland', 'Fire Fighting Organization', 'Personal Care Items Shop', 'AAA Class Hospital', 'Kindergarten', 'Hong Kong Hang Seng Bank', 'Jiangsu Food', 'Young Pioneer', 'Public Bank (Hong Kong)', 'Sichuan Food', "Maxim's", 'Pet Market', 'Fruits Market', 'Red Cross', 'Lighting & Porcelain Market', 'Food & Beverages Related', 'Local Products Franchise Store', 'Vocational Technical School', 'French Food', 'Other Energy Station', 'Coach Station', 'Information Centre', 'Church', "The People's Bank of China", 'Motorcycle Repair', 'Plants & Pet Market', 'Agricultural Bank of China', 'Dormitory', 'Art Gallery', 'Sports Store', 'Exhibition Hall', 'Transportation Service Related', 'Ferry Station', 'Railway Station', 'Squash Court', 'Pedestrian Street', 'Bakery', 'Move Service', 'Starbucks Coffee', 'Small Commodity Market', 'METRO', 'Filling Station', 'Botanical Garden', 'Park & Square', 'Golf Accessories Shop', 'BMW Lifestyle', 'Facilities within the park', 'View Point', 'Antique Shop', 'Internet Bar', 'Convention & Exhibition Center', 'Mexican Food', 'Huatai Property Insurance Company Ltd.', 'Farm', 'Taekwondo Venue', 'China Everbright Bank', 'Bath & Massage Center', "Saint's Alp Teahouse", 'Hospital', 'Airport Freight Station', 'Plastic Surgery', 'Duty-free Shop', 'Fruit Cultivation Base', 'South Korean Cuisine', 'Theatre & Cinema Related', 'Brain Hospital', 'Sports Centre', 'Industrial and Commercial Taxation Institution', 'Tobacco & Wine Franchise Store', 'Automobile Maintenance/Decoration', 'Hostel', 'Commercial House Related', 'Fast Food Restaurant', 'Post Office', 'Car Wash', 'Public Parking Lot', 'Franchise Store', 'British Food', 'Mining Company', 'Facilities within the School', 'Electric Supply Service Office', 'Convenience Store', 'Cafe de Coral', 'Funeral Facilities', 'Archives Hall', 'Brand Shoes Store', 'Health Center', 'Machinery and Electronics', 'Jewelry Store', 'Reserved Parking Lot', 'China Pacific Insurance Company', 'Veterinary Hospital', 'Freight Railway Station', 'Zoo', 'Driving School', 'Daily Life Service Place', 'Table Tennis Hall', 'Airline Tickets Office', 'Mobile Handsets Sales', 'Water Supply Service Office', 'Taikang Life Insurance Company', 'Ophthalmology Hospital', 'Shopping Plaza', 'Postal Savings Bank of China', 'State Level Organization & Institution', 'Factory', 'Fairwood', 'Adult Education', 'Training Institution', 'JPMorgan Chase Bank', 'Golf Training Course', 'Teahouse', 'Logistics Warehouse Space', 'Seafood Market', 'Buddhist & Taoist Temple', 'Port & Marina', 'Thai/Vietnamese Food', 'Laundry', 'Departure Lounge', 'Industrial Park', 'Cantonese Food', 'Northwestern Chinese Food', 'Plucking Park', 'ICBC', 'Foreign Embassy and Consulate', 'Optical Shop', 'Beijing Food', 'Taiwan Food', 'Bank of Communications', 'Tennis Court', 'Medical and Health Care Service Place', 'Job Center', 'Bus Station Related', 'Leisure Food Restaurant', 'Recreation Place', 'Night Club', 'Holiday & Nursing Resort', 'Get a Refund for a Ticket', 'Automobile Parts Sales', 'Hardware Store', 'Below Town level Government and Institution', 'Pawn House', 'Elementary School', 'Citibank', 'Memorial Hall', 'Baby Service Place', 'Non-local Government Representative Office', 'Flower Nurserey Base', 'China Unicom Office', 'Natatorium', 'Brazilian Food', 'Pasture', 'Automobile Service Related', 'Sell Ticket', 'Airport', 'Clothing Store', 'Wing Lung Bank', 'Vegetable Planting Base', 'Residential Area', 'Mosque', 'Brand Leather Ware Store', 'Nanyang Commercial Bank', 'Public Security Organization', 'adidas', 'Pacific Coffee Company', 'Mannings', 'Hotel', "Women's Federation", 'Coffee House', 'Radio Station', 'Ski Field', 'Prefecture Level Government and Institution', 'TV Station', 'CRC', 'Law Firm', 'Governmental Organization Related', 'Poultry Breeding Base', 'Insurance Company', 'Ping An Insurance Company of China', 'China Reinsurance Company', 'Dah Sing Bank', 'Cemetery', 'Race Track', 'Provincial Level Government and Institution', 'Western Restaurant', 'Baby Natatorium', 'Shopping Related Places', 'Patent Office', 'Finance Company', 'Traffic Management Authority', 'Psychiatric Hospital', 'Bank of China', 'Bank of East Asia', 'Circle K', 'Japanese Cuisine', 'Local Special Food', 'Lottery Store', 'Motorcycle Sales', 'Automobile Sales', 'Horse Riding Club', 'Yunnan & Guizhou Food', 'Commercial Trade', 'Authentication Services', 'Heliport', 'New China Life Insurance Company', "McDonald's", 'Sports Places', 'Cinema', 'Parking Lot Related', 'Ferry Terminal', 'Special Trade House', 'Indian Food', 'Bike Shop', 'Medicine Health Care Related', 'Waiting Room', 'Game Center', 'Endorse the Ticket', 'Ticket Entrance', 'Securities Company', 'Veterinary Station', 'PUMA', 'Roadside Parking Lot', 'UBC Coffee', 'Parking Lot Exit', 'Yoshinoya', 'Resort', 'Parking Lot Entrance & Exit', '7-ELEVEn', 'Home Building Materials Market', 'Li-Ning', 'Tourist Attraction', 'Vehicle Assessment Service', 'KFC', 'Subway Station', 'Special Hospital', "Pet's Store", 'Accommodation Service Related', 'ENT Hospital', 'Automobile Rental', 'Repair Store', 'Kitchen Supply']);
+
+</script>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        // Store variables
+        var accordion_head = $('.accordion > li > a'),
+            accordion_body = $('.accordion li > .sub-menu');
+        // Open the first tab on load
+
+        // Click function
+        accordion_head.on('click', function (event) {
+            // Disable header links
+            event.preventDefault();
+            // Show and hide the tabs on click
+            if ($(this).attr('class') != 'active') {
+                accordion_body.slideUp('normal');
+                $(this).next().stop(true, true).slideToggle('normal');
+                accordion_head.removeClass('active');
+                $(this).addClass('active');
+            }else
+            {
+                $(this).removeClass("active").next().slideUp();
+            }
+        });
+    });
+</script>
+<script>
+    var line1 = ['LuoHu', 'GuoMao', 'LaoJie', 'DaJuYuan', 'KeXueGuan', 'HuaQiangLu', 'GangSha', 'HuiZhanZhongXin', 'GouWuGongYuan', 'XiangMiHu', 'CheGongMiao', 'ZhuZiLin', 'QiaoChengDong', 'HuaQiaoCheng', 'ShiJieZhiChuang', 'BaiShiZhou', 'GaoXinYuan', 'ShenDa', 'TaoYuan', 'DaXin', 'LiYuMen', 'QianHaiWan', 'XinAn', 'BaoAnZhongXin', 'BaoTi', 'PingZhou', 'XiXiang', 'GuShu', 'HouRui', 'JiChangDong']
+    var line2 = ['ChiWan', 'SheKouGang', 'HaiShangShiJie', 'ShuiWan', 'DongJiaoTou', 'WanSha', 'HaiYue', 'DengLiang', 'HouHai', 'KeYuan', 'HongShuWan', 'ShiJieZhiChuang', 'QiaoChengBei', 'ShenKang', 'AnTuoShan', 'QiaoXiang', 'XiangMi', 'XiangMeiBei', 'JingTian', 'LianHuaXi', 'FuTian', 'ShiMinZhongXin', 'GangShaBei', 'HuaQiangBei', 'YanNan', 'DaJuYuan', 'HuBei', 'HuangBeiLing', 'XinXiu']
+    var line3 = ['YiTian', 'ShiSha', 'GouWuGongYuan', 'FuTian', 'ShaoNianGong', 'LianHuaCun', 'HuaXin', 'TongXinLing', 'HongLing', 'LaoJie', 'ShaiBu', 'CuiZhu', 'TianBei', 'ShuiBei', 'CaoBu', 'BuJi', 'MuMianWan', 'DaFen', 'DanZhuTou', 'LiuYue', 'TangKeng', 'HengGang', 'YongHu', 'HeAo', 'DaYun', 'AiLian', 'JiXiang', 'LongChengGuangChang', 'NanLian', 'ShuangLong']
+    var line4 = ['QingHu', 'LongHua', 'LongSheng', 'ShangTang', 'HongShan', 'ShenZhenBeiZhan', 'BaiShiLong', 'MinYue', 'ShangMeiLin', 'LianHuaBei', 'FuTianKouAn', 'FuMin', 'ShiMinZhongXin', 'ShaoNianGong']
+    var line5 = ['QianHaiWan', 'LinHai', 'BaoHua', 'BaoAnZhongXin', 'FanShen', 'LingZhi', 'HongLangBei', 'XingDong', 'LiuXianDong', 'XiLi', 'DaXueCheng', 'TangLang', 'ChangLingBei', 'ShenZhenBeiZhan', 'MinZhi', 'WuHe', 'BanTian', 'YangMei', 'ShangShuiJing', 'XiaShuiJing', 'ChangLong', 'BuJi', 'BaiGeLong', 'BuXin', 'TaiAn', 'YiJing', 'HuangBeiLing']
+    var line7 = ['XiLiHu', 'XiLi', 'ChaGuang', 'ZhuGuang', 'LongJing', 'TaoYuanCun', 'ShenYun', 'AnTuoShan', 'NongLin', 'CheGongMiao', 'ShangSha', 'ShaWei', 'ShiSha', 'HuangGangCun', 'FuMin', 'HuangGangKouAn', 'ChiWei', 'HuaQiangNan', 'HuaQiangBei', 'HuaXin', 'HuangMuGang', 'BaGuaLing', 'HongLingBei', 'SunGang', 'HongHu', 'TianBei', 'TaiAn']
+    var line9 = ['ShenWan', 'ShenZhenWanGongYuan', 'XiaSha', 'CheGongMiao', 'XiangMei', 'JingTian', 'MeiJing', 'XiaMeiLin', 'MeiCun', 'ShangMeiLin', 'MaLing', 'YinHu', 'NiGang', 'HongLingBei', 'YuanLing', 'HongLing', 'HongLingNan', 'LuDanCun', 'RenMinNan', 'XiangXiCun', 'WenJin']
+    var line11 = ['HongShuWanNan', 'HouHai', 'NanShan', 'QianHaiWan', 'BaoAn', 'BiHaiWan', 'JiChang', 'JiChangBei', 'FuYong', 'QiaoTou', 'TangWei', 'MaAnShan', 'ShaJing', 'HouTing', 'SongGang', 'BiTou']
+
+    var lis = document.getElementsByTagName("li");
+    var length = lis.length
+    var liss = $("#accordion >li>ul").eq(0)
+
+    var lii = ''
+    for (var i = 0; i < line1.length; i++) {
+        lii = lii + '<li><a href=\"#\">' + line1[i] + '</a></li>\n'
+    }
+    liss.html(lii)
+
+    var liss2 = $("#accordion >li>ul").eq(1)
+    var lii2 = ''
+    for (var i = 0; i < line2.length; i++) {
+        lii2 = lii2 + '<li><a href=\"#\">' + line2[i] + '</a></li>\n'
+    }
+    liss2.html(lii2)
+
+    var liss3 = $("#accordion >li>ul").eq(2)
+    var lii3 = ''
+    for (var i = 0; i < line3.length; i++) {
+        lii3 = lii3 + '<li><a href=\"#\">' + line3[i] + '</a></li>\n'
+    }
+    liss3.html(lii3)
+
+    var liss4 = $("#accordion >li>ul").eq(3)
+    var lii4 = ''
+    for (var i = 0; i < line4.length; i++) {
+        lii4 = lii4 + '<li><a href=\"#\">' + line4[i] + '</a></li>\n'
+    }
+    liss4.html(lii4)
+
+    var liss5 = $("#accordion >li>ul").eq(4)
+    var lii5 = ''
+    for (var i = 0; i < line5.length; i++) {
+        lii5 = lii5 + '<li><a href=\"#\">' + line5[i] + '</a></li>\n'
+    }
+    liss5.html(lii5)
+
+    var liss6 = $("#accordion >li>ul").eq(5)
+    var lii6 = ''
+    for (var i = 0; i < line7.length; i++) {
+        lii6 = lii6 + '<li><a href=\"#\">' + line7[i] + '</a></li>\n'
+    }
+    liss6.html(lii6)
+
+    var liss9 = $("#accordion >li>ul").eq(6)
+    var lii9 = ''
+    for (var i = 0; i < line9.length; i++) {
+        lii9 = lii9 + '<li><a href=\"#\">' + line9[i] + '</a></li>\n'
+    }
+    liss9.html(lii9)
+
+    var liss11 = $("#accordion >li>ul").eq(7)
+    var lii11 = ''
+    for (var i = 0; i < line11.length; i++) {
+        lii11 = lii11 + '<li><a href=\"#\">' + line11[i] + '</a></li>\n'
+    }
+    liss11.html(lii11)
+
+
+</script>
+<script>
+    var chaige = 0;
+    var chaige1 = 0;
+    var shange = 0;
+
+
+
+    var labeldata = {
+        "type": "FeatureCollection",
+        "crs": {"type": "name", "properties": {"name": "EPSG:4326"}},
+        "features": []
+    }
+
+    $.ajax({
+        url: "./static/data/166subway.json",
+        type: "GET",
+        dataType: "json",
+        success: function (data1) {
+
+            map1.addSource('geodataPolygon', {type: 'geojson', data: data1});
+
+            map1.addLayer({
+                "id": "polygonlayer11",
+                "type": "fill",
+                "source": "geodataPolygon",
+                "paint": {
+
+                    "fill-color": "#fbb03b",
+                    'fill-opacity': 0.4
+                }
+            });
+            //高亮显示图层
+            map1.addLayer({
+                "id": "selectLayer",
+                "type": "fill",
+                "source": "geodataPolygon",
+                "paint": {
+                    "fill-color": "#ff2b3b",
+                    "fill-opacity": 0.4
+                },
+                "filter": ["in", "Field2", ""]
+            });
+        }
+    });
+
+
+    $('.accordion > li > ul > li > a').click(function () {
+        var place = $(this).html();
+        console.log(place)
+        $.ajax({
+            url: "./static/data/166subway.json",
+            type: "GET",
+            dataType: "json",
+            success: function (data1) {
+                var features1 = data1.features
+                var geofeature = features1.filter(function (e) {
+                    return e.properties['Field2'] == place
+                });
+                var evecoord = geofeature[0].geometry.coordinates[0]
+
+                var poly = turf.polygon([evecoord])
+                var geocenter = turf.centroid(poly)
+                lat = geocenter.geometry.coordinates[0]
+                lng = geocenter.geometry.coordinates[1]
+                map1.setCenter([lat, lng]);
+                map1.setZoom(14)
+                var b = document.getElementById("mapDiv1")
+                // b.innerHTML="站点：" + geofeature[0].properties['Field1'] + '<br />' +
+                //     "区域面积(sq.km.):" + geofeature[0].properties['Area_sq_km'] + '<br />' +
+                //     "POI类型总数:" + geofeature[0].properties['Total_POI_'] + '<br />' + "POI总数：" + geofeature[0].properties['Total_POIs'] + '<br />' +
+                //     "POI密度(/sq.km.):" + (geofeature[0].properties['Density_of']).toFixed(2)
+                b.innerHTML = "<table><tr><td style='width:300px;height:40px'>Station：</td><td style='width:300px;height:40px'>" + geofeature[0].properties['Field2'] + "</td></tr>" +
+                    "<tr><td style='width:300px;height:45px'>Area(sq.km.)：</td><td style='width:300px;height:40px'>" + geofeature[0].properties['Area_sq_km'] + "</td></tr>" +
+                    "<tr><td style='width:300px;height:45px'>Total POIs：</td><td style='width:300px;height:40px'>" + geofeature[0].properties['Total_POIs'] + "</td></tr>" +
+                    "<tr><td style='width:400px;height:45px'>Density of POIs(/sq.km.)：</td><td style='width:300px;height:40px'>" + (geofeature[0].properties['Density_of']).toFixed(2) + "</td></tr>" +
+                    "<tr><td style='width:300px;height:45px'>Total POI types：</td><td style='width:300px;height:40px'>" + geofeature[0].properties['Total_POI_'] + "</td></tr>" +
+                    "</table>"
+            }
+        });
+
+        // var eve = datae.features[i].geometry.coordinates[0];
+        //     var polygon = turf.polygon([eve]);
+        //     var center = turf.centroid(polygon);
+
+        map1.setFilter('selectLayer', ["in", "Field2", place]);
+
+
+        // map1.on('click','selectLayer',function(e){
+        //     var b =document.getElementById("yesterday")
+        //     b.innerHTML="Station：" + e.features[0].properties['Field1'] + '<br />' +
+        //         "Area(sq.km.):" + e.features[0].properties['Area_sq_km'] + '<br />' +
+        //         "Total POI types:" + e.features[0].properties['Total_POI_'] + '<br />' + "Total POIs：" + e.features[0].properties['Total_POIs'] + '<br />' +
+        //         "Density of POIs(/sq.km.):" + (e.features[0].properties['Density_of']).toFixed(2)
+        //
+        // })
+        map1.on('mouseenter', 'selectLayer', function (e) {
+            map1.getCanvas().style.cursor = 'pointer';
+
+        });
+        map1.on('mouseleave', 'selectLayer', function () {
+            map1.getCanvas().style.cursor = '';
+        });
+        getSemeticData(place);
+        setTimeout(updateArea, 1000)
+
+
+    });
+
+    mapboxgl.accessToken = 'pk.eyJ1Ijoibmlld3poIiwiYSI6ImNqbjRvM2F4ODA5ZDEzd2xkd2oxZnB4Y2UifQ.phMvmLw9t9lDxobKyYVbPw';
+    var mapStyle = {
+        "version": 8,
+        "name": "Dark",
+        "sources": {
+            "mapbox": {
+                "type": "vector",
+                "url": "mapbox://mapbox.mapbox-streets-v8"
+            }
+        },
+        "sprite": "mapbox://sprites/mapbox/dark-v10",
+        "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
+        "layers": []
+
+    };
+    var map1 = new mapboxgl.Map({
+        container: 'map2',
+        style: 'mapbox://styles/mapbox/dark-v9',
+        center: [114.080, 22.547],
+        zoom: 9
+    });
+
+
+    var map = new mapboxgl.Map({
+        container: 'map1',
+        zoom: 3.2,
+        center: [0, 0],
+        style: mapStyle,
+        minZoom: 3.2
+    });
+    if (chaige % 2 == 1) {
+        map.removeLayer("488pointlayer");
+        map.removeSource("488point")
+        map.removeLayer("13pointlayer")
+        map.removeSource("13point")
+        map.removeLayer("32pointlayer")
+        map.removeSource("32point")
+        map.removeLayer("pointslayer")
+        map.removeSource("geodataPoint")
+        chaige = 0
+    }
+    chaige++;
+    $.ajax({
+        url: "./static/data/sem488.json",
+        type: "GET",
+        dataType: "json",
+        success: function (data11) {
+            map.addSource('geodataPoint', {type: 'geojson', data: data11});
+            map.addLayer({
+                "id": "pointslayer",
+                "type": "circle",
+                "source": "geodataPoint",
+                "paint": {
+                    'circle-radius':
+                        3,
+                    "circle-color": "#fbb03b",
+                    'circle-opacity': 1
+                }
+            });
+
+            map.on('click', 'pointslayer', function (e) {
+                new mapboxgl.Popup()
+                    .setLngLat(e.lngLat)
+                    .setHTML("POI type：" + e.features[0].properties['type'] + '<br />' + "POI count：" + e.features[0].properties['value'] + '<br />')
+                    .addTo(map);
+            });
+            map.on('mouseenter', 'pointslayer', function () {
+                map.getCanvas().style.cursor = 'pointer';
+            });
+
+
+            map.on('mouseleave', 'pointslayer', function () {
+                map.getCanvas().style.cursor = '';
+            })
+
+        }
+    });
+    setTimeout(function () {
+        $.ajax({
+            url: "./static/data/13point.json",//json文件位置
+            type: "GET",//请求方式为get
+            dataType: "json", //返回数据格式为json
+            success: function (data1) {//请求成功完成后要执行的方法
+                //each循环 使用$.each方法遍历返回的数据date
+
+                map.addSource('13point', {type: 'geojson', data: data1});
+
+                map.addLayer({
+                    "id": "13pointlayer",
+                    "type": "symbol",
+                    "source": "13point",
+                    "layout": {
+                        "text-field": "{type}",
+                        "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+                        "text-anchor": "top"
+                    },
+                    "paint": {
+                        "text-color": "#fff"
+
+                    }
+
+                });
+            }
+        });
+    }, 100);
+    setTimeout(function () {
+        $.ajax({
+            url: "./static/data/32point.json",//json文件位置
+            type: "GET",//请求方式为get
+            dataType: "json", //返回数据格式为json
+            success: function (data1) {//请求成功完成后要执行的方法
+                //each循环 使用$.each方法遍历返回的数据date
+                map.addSource('32point', {type: 'geojson', data: data1});
+                map.addLayer({
+                    "id": "32pointlayer",
+                    "type": "symbol",
+                    "source": "32point",
+                    "layout": {
+                        "text-field": "{type}",
+                        "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+                        "text-anchor": "top",
+                        "visibility": "none"
+                    },
+                    "paint": {
+                        "text-color": "#fff"
+
+                    }
+                });
+                if (map.getZoom() < 3.4) {
+                    var a = map.style._layers;
+                    if ("32pointlayer" in a) {
+                        map.setLayoutProperty("32pointlayer", 'visibility', 'none');
+                    }
+                    if (map.getLayoutProperty('13pointlayer', 'visibility') === 'none') {
+                        map.setLayoutProperty("13pointlayer", 'visibility', 'visible');
+                    }
+
+                } else if (map.getZoom() >= 3.4 && map.getZoom() <= 4.1) {
+                    var b = map.style._layers;
+                    if ("13pointlayer" in b) {
+                        map.setLayoutProperty("13pointlayer", 'visibility', 'none');
+                    }
+
+                    if (map.getLayoutProperty('32pointlayer', 'visibility') === 'none') {
+                        map.setLayoutProperty("32pointlayer", 'visibility', 'visible');
+                    }
+                } else if (map.getZoom() > 4.1) {
+                    var c = map.style._layers;
+                    if ("13pointlayer" in c) {
+                        map.setLayoutProperty("13pointlayer", 'visibility', 'none');
+                    }
+                    if ("32pointlayer" in c) {
+                        map.setLayoutProperty("32pointlayer", 'visibility', 'none');
+                    }
+
+                }
+            }
+        });
+    }, 200);
+
+    setTimeout(function () {
+        $.ajax({
+            url: "./static/data/sem488.json",//json文件位置
+            type: "GET",//请求方式为get
+            dataType: "json", //返回数据格式为json
+            success: function (data1) {//请求成功完成后要执行的方法
+                //each循环 使用$.each方法遍历返回的数据date
+                map.addSource('488point', {type: 'geojson', data: data1});
+                map.addLayer({
+                    "id": "488pointlayer",
+                    "type": "symbol",
+                    "source": "488point",
+                    "layout": {
+                        "text-field": "{type}",
+                        "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+                        "text-size": 13,
+                        "text-anchor": "top",
+                        "visibility": "none"
+                    },
+                    "paint": {
+                        "text-color": "#fff",
+
+
+                    }
+
+                });
+                if (map.getZoom() < 3.4) {
+                    var a = map.style._layers;
+                    if ("32pointlayer" in a) {
+                        map.setLayoutProperty("32pointlayer", 'visibility', 'none');
+                    }
+                    if ("488pointlayer" in a) {
+                        map.setLayoutProperty("488pointlayer", 'visibility', 'none');
+                    }
+                    if (map.getLayoutProperty('13pointlayer', 'visibility') === 'none') {
+                        map.setLayoutProperty("13pointlayer", 'visibility', 'visible');
+                    }
+
+                } else if (map.getZoom() >= 3.4 && map.getZoom() <= 4.1) {
+                    var b = map.style._layers;
+                    if ("13pointlayer" in b) {
+                        map.setLayoutProperty("13pointlayer", 'visibility', 'none');
+                    }
+                    if ("488pointlayer" in b) {
+                        map.setLayoutProperty("488pointlayer", 'visibility', 'none');
+                    }
+                    if (map.getLayoutProperty('32pointlayer', 'visibility') === 'none') {
+                        map.setLayoutProperty("32pointlayer", 'visibility', 'visible');
+                    }
+                } else if (map.getZoom() > 4.1) {
+                    var c = map.style._layers;
+                    if ("13pointlayer" in c) {
+                        map.setLayoutProperty("13pointlayer", 'visibility', 'none');
+                    }
+                    if ("32pointlayer" in c) {
+                        map.setLayoutProperty("32pointlayer", 'visibility', 'none');
+                    }
+                    if (map.getLayoutProperty('488pointlayer', 'visibility') === 'none') {
+                        map.setLayoutProperty("488pointlayer", 'visibility', 'visible');
+                    }
+                }
+            }
+        });
+    }, 300)
+
+
+    $('#shen').click(function () {
+        var content = document.getElementById('o').value
+        $.ajax({
+            url: "./static/data/sem488.json",
+            type: "GET",
+            dataType: "json",
+            success: function (data1) {
+                var features1 = data1.features;
+                var geofeature = features1.filter(function (e) {
+                    return e.properties['type'] == content
+                });
+                var lat = geofeature[0].geometry.coordinates[0]
+                var lng = geofeature[0].geometry.coordinates[1]
+                map.setCenter([lat, lng]);
+                map.setZoom(7)
+            }
+        });
+
+    });
+
+    var draw = new MapboxDraw({
+        displayControlsDefault: false,
+        controls: {
+            polygon: true,
+            trash: true
+        }
+    });
+    map.addControl(draw);
+
+    map.on('draw.create', updateArea);
+    map.on('draw.delete', updateArea);
+    map.on('draw.update', updateArea);
+
+    function updateArea() {
+        var datae = draw.getAll();
+
+        labeldata = {
+            "type": "FeatureCollection",
+            "crs": {"type": "name", "properties": {"name": "EPSG:4326"}},
+            "features": []
+        }
+
+        // var datt=datae.features[0].geometry['coordinates'];
+
+
+        if (chaige1 % 2 == 1) {
+            map.removeLayer("labellayer");
+            map.removeSource("label");
+            chaige1 = 0
+        }
+        chaige1++;
+        for (var i = 0; i < datae.features.length; i++) {
+            var value1 = 0;
+            var eve = datae.features[i].geometry.coordinates[0];
+            var polygon = turf.polygon([eve]);
+            var center = turf.centroid(polygon);
+
+            var userPolygon = datae.features[i];
+            var polygonBoundingBox = turf.bbox(userPolygon);
+            var southWest = [polygonBoundingBox[0], polygonBoundingBox[1]];
+            var northEast = [polygonBoundingBox[2], polygonBoundingBox[3]];
+            var northEastPointPixel = map.project(northEast);
+            var southWestPointPixel = map.project(southWest);
+            var features = map.queryRenderedFeatures([southWestPointPixel, northEastPointPixel], {layers: ['pointslayer']});
+            features.reduce(function (memo, feature) {
+                if (!(undefined === turf.intersect(feature, userPolygon))) {
+                    // only add the property, if the feature intersects with the polygon drawn by the user
+                    memo.push(feature.properties.FID);
+                    var intnum = parseInt(feature.properties['value']);
+                    value1 = value1 + intnum
+                }
+                return memo;
+            }, ['in', 'FID']);
+            // value11.push(value1)
+            // console.log(value11)
+
+            center.properties['newvalue'] = value1;
+
+
+            labeldata['features'].push(center);
+
+        }
+        map.addSource('label', {type: 'geojson', data: labeldata});
+
+        map.addLayer({
+            "id": "labellayer",
+            "type": "symbol",
+            "source": "label",
+            "layout": {
+                "text-field": "{newvalue}",
+                "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+                "text-anchor": "top"
+            },
+            "paint": {
+                "text-color": "#fff000"
+
+            }
+        });
+    }
+
+
+    map.on("zoom", onMapZoom);
+
+    //确定缩放等级与label关系
+    function onMapZoom() {
+        if (map.getZoom() < 3.4) {
+            var a = map.style._layers;
+            if ("32pointlayer" in a) {
+                map.setLayoutProperty("32pointlayer", 'visibility', 'none');
+            }
+            if ("488pointlayer" in a) {
+                map.setLayoutProperty("488pointlayer", 'visibility', 'none');
+            }
+            if (map.getLayoutProperty('13pointlayer', 'visibility') === 'none') {
+                map.setLayoutProperty("13pointlayer", 'visibility', 'visible');
+            }
+
+        } else if (map.getZoom() >= 3.4 && map.getZoom() <= 4.1) {
+            var b = map.style._layers;
+            if ("13pointlayer" in b) {
+                map.setLayoutProperty("13pointlayer", 'visibility', 'none');
+            }
+            if ("488pointlayer" in b) {
+                map.setLayoutProperty("488pointlayer", 'visibility', 'none');
+            }
+            if (map.getLayoutProperty('32pointlayer', 'visibility') === 'none') {
+                map.setLayoutProperty("32pointlayer", 'visibility', 'visible');
+            }
+        } else if (map.getZoom() > 4.1) {
+            var c = map.style._layers;
+            if ("13pointlayer" in c) {
+                map.setLayoutProperty("13pointlayer", 'visibility', 'none');
+            }
+            if ("32pointlayer" in c) {
+                map.setLayoutProperty("32pointlayer", 'visibility', 'none');
+            }
+            if (map.getLayoutProperty('488pointlayer', 'visibility') === 'none') {
+                map.setLayoutProperty("488pointlayer", 'visibility', 'visible');
+            }
+        }
+    }
+
+
+    //Load Semetic Message
+    function getSemeticData(place) {
+
+        $.ajax({
+            url: "./static/data/local_poi.json",//json文件位置
+            type: "GET",//请求方式为get
+            dataType: "json", //返回数据格式为json
+            success: function (data1) {//请求成功完成后要执行的方法
+                menu_label = data1.filter(function (e) {
+                    return e[' 位置'] == place
+                });
+                rendererSemeticPoints(menu_label)
+            }
+        });
+    }
+
+
+    $("#ajaxSubmit").click(function (e) {
+        var data0 = [];
+        var objj = {};
+        var data2 = []
+        var data4 = []
+        var fileType = $('#upCsv').val().split('.');
+        var files = document.getElementById("upCsv").files;
+
+        $("#ajaxSubmit").attr("disabled", "disabled");
+        // 判断上传的文件类型
+
+        if ((fileType[fileType.length - 1]) === 'csv' || (fileType[fileType.length - 1]) === 'CSV' || (fileType[fileType.length - 1]) === 'xlsx' || (fileType[fileType.length - 1]) === 'XLSX') {
+
+            var files = document.getElementById("upCsv").files;
+
+            if (files.length) {
+                var file = files[0];
+                var reader = new FileReader(); //new一个FileReader实例
+                if (typeof FileReader == 'undefined') {
+                    alert("你的浏览器暂不支持该功能", {title: "提示", skin: "layui-layer-molv"});
+                    file.setAttribute("disabled", "disabled");
+                    return;
+                }
+                reader.readAsText(file);
+                reader.onload = function () {
+                    var num = null;
+                    var relArr = this.result.split("\r\n");
+
+                    if (!$.isEmptyObject(relArr) && relArr.length > 1) {
+                        var value1 = relArr[0]
+                        if (!$.isEmptyObject(value1)) {
+                            var objArr1 = value1.split(",");
+                            data00 = objArr1
+                        }
+                        var value2 = relArr[1]
+                        if (!$.isEmptyObject(value2)) {
+                            if (value2.substring(0, 4) != "[[]]") {
+                                var objArr2 = value2.split("\"");
+                                var objAttr4 = objArr2[2].split(",")
+
+
+                                data4 = eval(objAttr4).slice(1, 489)
+
+                                // if (!(undefined == objArr2[1])) {
+
+                                var objAttr5 = eval(objArr2[1])
+                                var objAttr6 = objAttr5[0]
+                                var poly1 = turf.polygon([objAttr6])
+                                var geocenter1 = turf.centroid(poly1)
+                                lat1 = geocenter1.geometry.coordinates[0]
+                                lng1 = geocenter1.geometry.coordinates[1]
+                                map1.setCenter([lat1, lng1]);
+                                map1.setZoom(14)
+                                var tou = {
+                                    'type': 'Feature',
+                                    'geometry': {
+                                        'type': 'Polygon',
+                                    }
+                                }
+                                var geo = tou['geometry']
+                                geo['coordinates'] = objAttr5
+                                if (shange % 2 == 1) {
+                                    map1.removeLayer("yonghu");
+                                    map1.removeSource("zidingyi");
+                                    shange = 0
+                                }
+                                shange++;
+                                map1.addSource('zidingyi', {type: 'geojson', data: tou});
+
+                                map1.addLayer({
+                                    "id": "yonghu",
+                                    "type": "fill",
+                                    "source": "zidingyi",
+                                    "paint": {
+                                        "fill-color": "#1e3dfb",
+                                        'fill-opacity': 0.4
+                                    }
+                                });
+                                data0 = data00.slice(1, 489)
+
+                                for (i = 0; i < data0.length; i++) {
+                                    objj[data0[i]] = data4[i]
+                                }
+
+                            } else {
+                                var objArr2 = value2.split("]]");
+                                var data5 = eval((objArr2[1].substring(1, objArr2[1].length)).split(","))
+                                data0 = data00.slice(1, 489)
+                                for (i = 0; i < data0.length; i++) {
+                                    objj[data0[i]] = data5[i]
+                                }
+                                map1.setCenter([106, 32]);
+                                map1.setZoom(2)
+                            }
+
+                        }
+
+                    }
+
+                    data2.push(objj)
+                    rendererSemeticPoints(data2)
+
+                    $("#ajaxSubmit").removeAttr("disabled");
+                }
+            }
+        } else {
+            alert("请上传.csv或.xlsx文件");
+            $("#ajaxSubmit").removeAttr("disabled");
+        }
+
+    })
+
+
+    //渲染points of Semetic Map
+    function rendererSemeticPoints(values) {
+        if (chaige % 2 == 1) {
+            map.removeLayer("488pointlayer");
+            map.removeSource("488point")
+            map.removeLayer("13pointlayer")
+            map.removeSource("13point")
+            map.removeLayer("32pointlayer")
+            map.removeSource("32point")
+            map.removeLayer("pointslayer")
+            map.removeSource("geodataPoint")
+            chaige = 0
+        }
+        chaige++;
+        setTimeout(function () {
+            $.ajax({
+                url: "./static/data/13point.json",//json文件位置
+                type: "GET",//请求方式为get
+                dataType: "json", //返回数据格式为json
+                success: function (data1) {//请求成功完成后要执行的方法
+                    //each循环 使用$.each方法遍历返回的数据date
+
+                    map.addSource('13point', {type: 'geojson', data: data1});
+
+                    map.addLayer({
+                        "id": "13pointlayer",
+                        "type": "symbol",
+                        "source": "13point",
+                        "layout": {
+                            "text-field": "{type}",
+                            "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+                            "text-anchor": "top"
+                        },
+                        "paint": {
+                            "text-color": "#fff"
+
+                        }
+
+                    });
+                }
+            });
+        }, 100);
+        setTimeout(function () {
+            $.ajax({
+                url: "./static/data/32point.json",//json文件位置
+                type: "GET",//请求方式为get
+                dataType: "json", //返回数据格式为json
+                success: function (data1) {//请求成功完成后要执行的方法
+                    //each循环 使用$.each方法遍历返回的数据date
+                    map.addSource('32point', {type: 'geojson', data: data1});
+                    map.addLayer({
+                        "id": "32pointlayer",
+                        "type": "symbol",
+                        "source": "32point",
+                        "layout": {
+                            "text-field": "{type}",
+                            "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+                            "text-anchor": "top",
+                            "visibility": "none"
+                        },
+                        "paint": {
+                            "text-color": "#fff"
+
+                        }
+                    });
+                    if (map.getZoom() < 3.4) {
+                        var a = map.style._layers;
+                        if ("32pointlayer" in a) {
+                            map.setLayoutProperty("32pointlayer", 'visibility', 'none');
+                        }
+                        if (map.getLayoutProperty('13pointlayer', 'visibility') === 'none') {
+                            map.setLayoutProperty("13pointlayer", 'visibility', 'visible');
+                        }
+
+                    } else if (map.getZoom() >= 3.4 && map.getZoom() <= 4.1) {
+                        var b = map.style._layers;
+                        if ("13pointlayer" in b) {
+                            map.setLayoutProperty("13pointlayer", 'visibility', 'none');
+                        }
+
+                        if (map.getLayoutProperty('32pointlayer', 'visibility') === 'none') {
+                            map.setLayoutProperty("32pointlayer", 'visibility', 'visible');
+                        }
+                    } else if (map.getZoom() > 4.1) {
+                        var c = map.style._layers;
+                        if ("13pointlayer" in c) {
+                            map.setLayoutProperty("13pointlayer", 'visibility', 'none');
+                        }
+                        if ("32pointlayer" in c) {
+                            map.setLayoutProperty("32pointlayer", 'visibility', 'none');
+                        }
+
+                    }
+                }
+            });
+        }, 200);
+
+        setTimeout(function () {
+            $.ajax({
+                url: "./static/data/sem488.json",//json文件位置
+                type: "GET",//请求方式为get
+                dataType: "json", //返回数据格式为json
+                success: function (data1) {//请求成功完成后要执行的方法
+                    //each循环 使用$.each方法遍历返回的数据date
+                    map.addSource('488point', {type: 'geojson', data: data1});
+                    map.addLayer({
+                        "id": "488pointlayer",
+                        "type": "symbol",
+                        "source": "488point",
+                        "layout": {
+                            "text-field": "{type}",
+                            "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+                            "text-size": 13,
+                            "text-anchor": "top",
+                            "visibility": "none"
+                        },
+                        "paint": {
+                            "text-color": "#fff",
+
+
+                        }
+
+                    });
+                    if (map.getZoom() < 3.4) {
+                        var a = map.style._layers;
+                        if ("32pointlayer" in a) {
+                            map.setLayoutProperty("32pointlayer", 'visibility', 'none');
+                        }
+                        if ("488pointlayer" in a) {
+                            map.setLayoutProperty("488pointlayer", 'visibility', 'none');
+                        }
+                        if (map.getLayoutProperty('13pointlayer', 'visibility') === 'none') {
+                            map.setLayoutProperty("13pointlayer", 'visibility', 'visible');
+                        }
+
+                    } else if (map.getZoom() >= 3.4 && map.getZoom() <= 4.1) {
+                        var b = map.style._layers;
+                        if ("13pointlayer" in b) {
+                            map.setLayoutProperty("13pointlayer", 'visibility', 'none');
+                        }
+                        if ("488pointlayer" in b) {
+                            map.setLayoutProperty("488pointlayer", 'visibility', 'none');
+                        }
+                        if (map.getLayoutProperty('32pointlayer', 'visibility') === 'none') {
+                            map.setLayoutProperty("32pointlayer", 'visibility', 'visible');
+                        }
+                    } else if (map.getZoom() > 4.1) {
+                        var c = map.style._layers;
+                        if ("13pointlayer" in c) {
+                            map.setLayoutProperty("13pointlayer", 'visibility', 'none');
+                        }
+                        if ("32pointlayer" in c) {
+                            map.setLayoutProperty("32pointlayer", 'visibility', 'none');
+                        }
+                        if (map.getLayoutProperty('488pointlayer', 'visibility') === 'none') {
+                            map.setLayoutProperty("488pointlayer", 'visibility', 'visible');
+                        }
+                    }
+                }
+            });
+        }, 300)
+        $.ajax({
+            url: "./static/data/sem488.json",
+            type: "GET",
+            dataType: "json",
+            success: function (data11) {
+                var features = data11['features']
+                var shuzu = [];
+                for (i = 0; i < features.length; i++) {
+                    var num1 = features[i].properties['type'];
+                    var properties = features[i].properties;
+                    properties['value'] = parseInt(values[0][num1])
+                    shuzu.push(Math.log(parseInt(values[0][num1]) + 1) / Math.log(2))
+                    properties['valueln'] = Math.log(parseInt(values[0][num1]) + 1) / Math.log(2)
+                    // properties['valueln'] = Math.log(parseInt(values[0][num1]) + 1) / Math.log(Math.E)
+                }
+
+                var max = Math.max.apply(null, shuzu);
+                var max1 = 0.2 * max;
+                var max2 = 0.4 * max;
+                var max3 = 0.6 * max;
+                var max4 = 0.8 * max;
+
+
+                map.addSource('geodataPoint', {type: 'geojson', data: data11});
+                map.addLayer({
+                    "id": "pointslayer",
+                    "type": "circle",
+                    "source": "geodataPoint",
+                    "paint": {
+                        'circle-radius':
+                            ['+', ['sqrt',  ['get', 'value']],3],
+                        "circle-color": [
+                            'interpolate',
+                            ['linear'],
+                            ['get', 'valueln'],
+                            // 0, "#fbf894",
+                            // max1, "#fba10c",
+                            // max2, "#db523a",
+                            // max3, "#962765",
+                            // max4, "#420c64",
+                            // max, "#000005"
+                            0, "#393939",
+                            max1, "#420c64",
+                            max2, "#962765",
+                            max3, "#db523a",
+                            max4, "#fba10c",
+                            max, "#fbf894"
+
+                        ],
+                        'circle-opacity': 0.75
+                    }
+                });
+
+
+                map.on('mouseenter', 'pointslayer', function () {
+                    map.getCanvas().style.cursor = 'pointer';
+                });
+
+
+                map.on('mouseleave', 'pointslayer', function () {
+                    map.getCanvas().style.cursor = '';
+                })
+
+            }
+        });
+    }
+</script>
+</body>
+</html>

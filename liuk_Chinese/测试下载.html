@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<head runat="server">
+    <title>文件下载</title>
+</head>
+<!DOCTYPE html>
+<
+<body>
+<script>
+    function downLoad(){
+        var elemIF = document.createElement("iframe");
+        elemIF.src = "1.csv";
+        elemIF.style.display = "none";
+        document.body.appendChild(elemIF);
+
+    }
+</script>
+
+<a href="#" onClick="downLoad()">点击下载</a>
+</body>
+</html>

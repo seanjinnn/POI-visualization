@@ -1,0 +1,8307 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4492555,
+          15.981885999999999
+        ]
+      },
+      "properties": {
+        "FID": 0,
+        "type": "Charity Organizations",
+        "X": -2.4492555,
+        "Y": 15.981885999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0158001000000001,
+          22.493130000000001
+        ]
+      },
+      "properties": {
+        "FID": 1,
+        "type": "Network Science and Technology",
+        "X": -1.0158001000000001,
+        "Y": 22.493130000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.071923999999999,
+          -10.288758
+        ]
+      },
+      "properties": {
+        "FID": 2,
+        "type": "Outdoor Sports Shop",
+        "X": 16.071923999999999,
+        "Y": -10.288758
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3448606000000001,
+          18.767454000000001
+        ]
+      },
+      "properties": {
+        "FID": 3,
+        "type": "Notarial Survey Organization",
+        "X": -2.3448606000000001,
+        "Y": 18.767454000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.2880356000000002,
+          16.122243999999998
+        ]
+      },
+      "properties": {
+        "FID": 4,
+        "type": "Bank Related",
+        "X": 3.2880356000000002,
+        "Y": 16.122243999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7697350000000001,
+          21.797256000000001
+        ]
+      },
+      "properties": {
+        "FID": 5,
+        "type": "Company",
+        "X": -1.7697350000000001,
+        "Y": 21.797256000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.827318,
+          -9.2973820000000007
+        ]
+      },
+      "properties": {
+        "FID": 6,
+        "type": "Northeastern Chinese Food",
+        "X": -2.827318,
+        "Y": -9.2973820000000007
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.330667,
+          -4.0076850000000004
+        ]
+      },
+      "properties": {
+        "FID": 7,
+        "type": "Yon ho",
+        "X": 10.330667,
+        "Y": -4.0076850000000004
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.192771,
+          8.1126629999999995
+        ]
+      },
+      "properties": {
+        "FID": 8,
+        "type": "Other Farming Forestry Animal Husbandry and Fishery Base",
+        "X": -15.192771,
+        "Y": 8.1126629999999995
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6494106999999998,
+          16.445419999999999
+        ]
+      },
+      "properties": {
+        "FID": 9,
+        "type": "Social Group Related",
+        "X": -3.6494106999999998,
+        "Y": 16.445419999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6201863000000003,
+          3.4689329
+        ]
+      },
+      "properties": {
+        "FID": 10,
+        "type": "Bank of Shanghai",
+        "X": 6.6201863000000003,
+        "Y": 3.4689329
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.7385864,
+          -11.306357
+        ]
+      },
+      "properties": {
+        "FID": 11,
+        "type": "Islamic Food",
+        "X": -4.7385864,
+        "Y": -11.306357
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.8353560000000009,
+          -10.78299
+        ]
+      },
+      "properties": {
+        "FID": 12,
+        "type": "Supermarket",
+        "X": -8.8353560000000009,
+        "Y": -10.78299
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0302075999999998,
+          1.9210083
+        ]
+      },
+      "properties": {
+        "FID": 13,
+        "type": "The Export-Import Bank of China",
+        "X": 5.0302075999999998,
+        "Y": 1.9210083
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.818648,
+          -11.362613
+        ]
+      },
+      "properties": {
+        "FID": 14,
+        "type": "Agricultural Products Market",
+        "X": -13.818648,
+        "Y": -11.362613
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.932235,
+          -8.8413699999999995
+        ]
+      },
+      "properties": {
+        "FID": 15,
+        "type": "Brand Bags and Suitcases Store",
+        "X": 13.932235,
+        "Y": -8.8413699999999995
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9418863,
+          11.5543
+        ]
+      },
+      "properties": {
+        "FID": 16,
+        "type": "University & College",
+        "X": -1.9418863,
+        "Y": 11.5543
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2033469999999999,
+          -0.061834399999999998
+        ]
+      },
+      "properties": {
+        "FID": 17,
+        "type": "China Development Bank",
+        "X": 5.2033469999999999,
+        "Y": -0.061834399999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.37356472000000002,
+          17.405194999999999
+        ]
+      },
+      "properties": {
+        "FID": 18,
+        "type": "Telecommunication Company",
+        "X": -0.37356472000000002,
+        "Y": 17.405194999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.737619,
+          6.9875883999999999
+        ]
+      },
+      "properties": {
+        "FID": 19,
+        "type": "Forest Farm",
+        "X": -14.737619,
+        "Y": 6.9875883999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.454809,
+          -5.3116155000000003
+        ]
+      },
+      "properties": {
+        "FID": 20,
+        "type": "Foreign Food Restaurant",
+        "X": 5.454809,
+        "Y": -5.3116155000000003
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.694547999999999,
+          -4.4293246000000002
+        ]
+      },
+      "properties": {
+        "FID": 21,
+        "type": "Stomatological Hospital",
+        "X": -14.694547999999999,
+        "Y": -4.4293246000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.6828690000000002,
+          2.9751159999999999
+        ]
+      },
+      "properties": {
+        "FID": 22,
+        "type": "Park Box Office",
+        "X": -9.6828690000000002,
+        "Y": 2.9751159999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.959239999999999,
+          -2.4138389999999998
+        ]
+      },
+      "properties": {
+        "FID": 23,
+        "type": "Concert Hall",
+        "X": 11.959239999999999,
+        "Y": -2.4138389999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.015761087,
+          -3.8978012
+        ]
+      },
+      "properties": {
+        "FID": 24,
+        "type": "Recreation Center",
+        "X": -0.015761087,
+        "Y": -3.8978012
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.491447,
+          -2.1275449000000002
+        ]
+      },
+      "properties": {
+        "FID": 25,
+        "type": "Economical Chain Hotel",
+        "X": -3.491447,
+        "Y": -2.1275449000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.4400180000000002,
+          -13.413444999999999
+        ]
+      },
+      "properties": {
+        "FID": 26,
+        "type": "Photo Finishing",
+        "X": -9.4400180000000002,
+        "Y": -13.413444999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3427863000000002,
+          15.572371
+        ]
+      },
+      "properties": {
+        "FID": 27,
+        "type": "Travel Agency",
+        "X": 4.3427863000000002,
+        "Y": 15.572371
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1343039,
+          10.7667675
+        ]
+      },
+      "properties": {
+        "FID": 28,
+        "type": "Science & Education Cultural Place",
+        "X": -0.1343039,
+        "Y": 10.7667675
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.0696969999999997,
+          3.3874110000000002
+        ]
+      },
+      "properties": {
+        "FID": 29,
+        "type": "CGB",
+        "X": 8.0696969999999997,
+        "Y": 3.3874110000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7205352999999999,
+          7.2296195000000001
+        ]
+      },
+      "properties": {
+        "FID": 30,
+        "type": "Industrial Bank",
+        "X": 6.7205352999999999,
+        "Y": 7.2296195000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.162255,
+          -9.2594290000000008
+        ]
+      },
+      "properties": {
+        "FID": 31,
+        "type": "NIKE",
+        "X": 12.162255,
+        "Y": -9.2594290000000008
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9491038000000001,
+          2.2043967000000002
+        ]
+      },
+      "properties": {
+        "FID": 32,
+        "type": "Building Related",
+        "X": 1.9491038000000001,
+        "Y": 2.2043967000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.939577999999999,
+          -4.6258660000000003
+        ]
+      },
+      "properties": {
+        "FID": 33,
+        "type": "GOME",
+        "X": 14.939577999999999,
+        "Y": -4.6258660000000003
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8876075999999999,
+          4.9463654000000004
+        ]
+      },
+      "properties": {
+        "FID": 34,
+        "type": "Shanghai Pudong Development Bank",
+        "X": 6.8876075999999999,
+        "Y": 4.9463654000000004
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8001145999999997,
+          18.241844
+        ]
+      },
+      "properties": {
+        "FID": 35,
+        "type": "China Life Insurance Company",
+        "X": 5.8001145999999997,
+        "Y": 18.241844
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.1004649999999998,
+          22.114896999999999
+        ]
+      },
+      "properties": {
+        "FID": 36,
+        "type": "State Tax Authority",
+        "X": -9.1004649999999998,
+        "Y": 22.114896999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.656696999999999,
+          4.9890122000000003
+        ]
+      },
+      "properties": {
+        "FID": 37,
+        "type": "City Plaza",
+        "X": -12.656696999999999,
+        "Y": 4.9890122000000003
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6228586,
+          23.541713999999999
+        ]
+      },
+      "properties": {
+        "FID": 38,
+        "type": "Chemical and Metallurgy",
+        "X": -1.6228586,
+        "Y": 23.541713999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.312675,
+          16.681290000000001
+        ]
+      },
+      "properties": {
+        "FID": 39,
+        "type": "Famous Enterprise",
+        "X": 1.312675,
+        "Y": 16.681290000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.0342254999999998,
+          4.5782280000000002
+        ]
+      },
+      "properties": {
+        "FID": 40,
+        "type": "ATM",
+        "X": 4.0342254999999998,
+        "Y": 4.5782280000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9714622000000004,
+          -15.471686
+        ]
+      },
+      "properties": {
+        "FID": 41,
+        "type": "Digital Electronics",
+        "X": -6.9714622000000004,
+        "Y": -15.471686
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.81896645000000001,
+          23.703308
+        ]
+      },
+      "properties": {
+        "FID": 42,
+        "type": "Advertisement and Decoration",
+        "X": 0.81896645000000001,
+        "Y": 23.703308
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.879004,
+          8.1310169999999999
+        ]
+      },
+      "properties": {
+        "FID": 43,
+        "type": "Fishing Spot",
+        "X": -14.879004,
+        "Y": 8.1310169999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2407310000000003,
+          -6.8126764
+        ]
+      },
+      "properties": {
+        "FID": 44,
+        "type": "Other Asian Food",
+        "X": 6.2407310000000003,
+        "Y": -6.8126764
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.500692000000001,
+          -1.3250322000000001
+        ]
+      },
+      "properties": {
+        "FID": 45,
+        "type": "Theatre",
+        "X": 12.500692000000001,
+        "Y": -1.3250322000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5246240000000002,
+          -5.1003012999999999
+        ]
+      },
+      "properties": {
+        "FID": 46,
+        "type": "Card & Chess Room",
+        "X": -3.5246240000000002,
+        "Y": -5.1003012999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8585615,
+          -0.99883049999999995
+        ]
+      },
+      "properties": {
+        "FID": 47,
+        "type": "Four-star Hotel",
+        "X": -1.8585615,
+        "Y": -0.99883049999999995
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0420696999999999,
+          -10.389203
+        ]
+      },
+      "properties": {
+        "FID": 48,
+        "type": "Dessert House",
+        "X": 2.0420696999999999,
+        "Y": -10.389203
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.35452992,
+          6.6855124999999997
+        ]
+      },
+      "properties": {
+        "FID": 49,
+        "type": "Gym Center",
+        "X": -0.35452992,
+        "Y": 6.6855124999999997
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.82848792999999998,
+          2.7902005000000001
+        ]
+      },
+      "properties": {
+        "FID": 50,
+        "type": "Vegetarian Food",
+        "X": -0.82848792999999998,
+        "Y": 2.7902005000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6733635,
+          -17.127409
+        ]
+      },
+      "properties": {
+        "FID": 51,
+        "type": "Ticket Office",
+        "X": -0.6733635,
+        "Y": -17.127409
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.449132000000001,
+          0.13602792999999999
+        ]
+      },
+      "properties": {
+        "FID": 52,
+        "type": "Stationary Store",
+        "X": 15.449132000000001,
+        "Y": 0.13602792999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.49842950000000003,
+          -17.262834999999999
+        ]
+      },
+      "properties": {
+        "FID": 53,
+        "type": "Train Ticket Office",
+        "X": -0.49842950000000003,
+        "Y": -17.262834999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7414685000000001,
+          0.20980296000000001
+        ]
+      },
+      "properties": {
+        "FID": 54,
+        "type": "Five-star Hotel",
+        "X": -1.7414685000000001,
+        "Y": 0.20980296000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8583864999999999,
+          9.2286140000000003
+        ]
+      },
+      "properties": {
+        "FID": 55,
+        "type": "Tea House",
+        "X": 7.8583864999999999,
+        "Y": 9.2286140000000003
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.1254783000000002,
+          16.019204999999999
+        ]
+      },
+      "properties": {
+        "FID": 56,
+        "type": "Communist Youth League",
+        "X": -4.1254783000000002,
+        "Y": 16.019204999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.017147856,
+          6.9026813999999996
+        ]
+      },
+      "properties": {
+        "FID": 57,
+        "type": "Sports & Recreation Places",
+        "X": 0.017147856,
+        "Y": 6.9026813999999996
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.582051999999999,
+          -6.6433415
+        ]
+      },
+      "properties": {
+        "FID": 58,
+        "type": "Shopping Centre",
+        "X": 12.582051999999999,
+        "Y": -6.6433415
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6166023999999997,
+          -0.18963990999999999
+        ]
+      },
+      "properties": {
+        "FID": 59,
+        "type": "HSBC",
+        "X": 6.6166023999999997,
+        "Y": -0.18963990999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1799903,
+          4.3401154999999996
+        ]
+      },
+      "properties": {
+        "FID": 60,
+        "type": "Bank",
+        "X": 5.1799903,
+        "Y": 4.3401154999999996
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6113749999999998,
+          -5.0101089999999999
+        ]
+      },
+      "properties": {
+        "FID": 61,
+        "type": "Zhejiang Food",
+        "X": 6.6113749999999998,
+        "Y": -5.0101089999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.8679940000000004,
+          23.87171
+        ]
+      },
+      "properties": {
+        "FID": 62,
+        "type": "Industrial Building",
+        "X": -4.8679940000000004,
+        "Y": 23.87171
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.064154100000000006,
+          -2.2008152000000001
+        ]
+      },
+      "properties": {
+        "FID": 63,
+        "type": "Disco",
+        "X": -0.064154100000000006,
+        "Y": -2.2008152000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.170902999999999,
+          -14.967427000000001
+        ]
+      },
+      "properties": {
+        "FID": 64,
+        "type": "CD/DVD Shop",
+        "X": 11.170902999999999,
+        "Y": -14.967427000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0216203000000004,
+          7.9101242999999997
+        ]
+      },
+      "properties": {
+        "FID": 65,
+        "type": "Basketball Stadium",
+        "X": -4.0216203000000004,
+        "Y": 7.9101242999999997
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 66,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5797214999999998,
+          -11.773070000000001
+        ]
+      },
+      "properties": {
+        "FID": 66,
+        "type": "Horse-Betting Center",
+        "X": 5.5797214999999998,
+        "Y": -11.773070000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2264189999999999,
+          10.868923000000001
+        ]
+      },
+      "properties": {
+        "FID": 67,
+        "type": "Residential Quarter",
+        "X": -7.2264189999999999,
+        "Y": 10.868923000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0813893999999999,
+          -7.9613322999999996
+        ]
+      },
+      "properties": {
+        "FID": 68,
+        "type": "Sea Food",
+        "X": -3.0813893999999999,
+        "Y": -7.9613322999999996
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 69,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.5040290000000001,
+          -8.7434170000000009
+        ]
+      },
+      "properties": {
+        "FID": 69,
+        "type": "Hubei Food",
+        "X": -4.5040290000000001,
+        "Y": -8.7434170000000009
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 70,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.603985,
+          -8.7289809999999992
+        ]
+      },
+      "properties": {
+        "FID": 70,
+        "type": "Medical Supplies",
+        "X": -14.603985,
+        "Y": -8.7289809999999992
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 71,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5639405000000002,
+          18.126536999999999
+        ]
+      },
+      "properties": {
+        "FID": 71,
+        "type": "The People's Insurance Company of China",
+        "X": 6.5639405000000002,
+        "Y": 18.126536999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 72,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5524685,
+          19.447949999999999
+        ]
+      },
+      "properties": {
+        "FID": 72,
+        "type": "Evaluation Firm",
+        "X": 1.5524685,
+        "Y": 19.447949999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 73,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.307592,
+          -1.2510178999999999
+        ]
+      },
+      "properties": {
+        "FID": 73,
+        "type": "Home Building Materials Market",
+        "X": 20.307592,
+        "Y": -1.2510178999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 74,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.639353,
+          -5.0026109999999999
+        ]
+      },
+      "properties": {
+        "FID": 74,
+        "type": "Clinic",
+        "X": -14.639353,
+        "Y": -5.0026109999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8647602000000001,
+          17.858233999999999
+        ]
+      },
+      "properties": {
+        "FID": 75,
+        "type": "Finance & Insurance Institution",
+        "X": 2.8647602000000001,
+        "Y": 17.858233999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 76,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2330804000000004,
+          -9.3698800000000002
+        ]
+      },
+      "properties": {
+        "FID": 76,
+        "type": "Russian Food",
+        "X": 5.2330804000000004,
+        "Y": -9.3698800000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.7327689999999993,
+          -10.228847
+        ]
+      },
+      "properties": {
+        "FID": 77,
+        "type": "Pharmacy",
+        "X": -8.7327689999999993,
+        "Y": -10.228847
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 78,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.762101999999999,
+          1.9803991000000001
+        ]
+      },
+      "properties": {
+        "FID": 78,
+        "type": "Disease Prevention",
+        "X": -17.762101999999999,
+        "Y": 1.9803991000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 79,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -20.032791,
+          13.894439
+        ]
+      },
+      "properties": {
+        "FID": 79,
+        "type": "Bus IC Card",
+        "X": -20.032791,
+        "Y": 13.894439
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 80,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7479819999999999,
+          4.3217999999999996
+        ]
+      },
+      "properties": {
+        "FID": 80,
+        "type": "Golf Course",
+        "X": -3.7479819999999999,
+        "Y": 4.3217999999999996
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 81,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6053505000000001,
+          21.686934999999998
+        ]
+      },
+      "properties": {
+        "FID": 81,
+        "type": "Local Tax Authority",
+        "X": -8.6053505000000001,
+        "Y": 21.686934999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 82,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6761384000000001,
+          -18.034289999999999
+        ]
+      },
+      "properties": {
+        "FID": 82,
+        "type": "Platform",
+        "X": 5.6761384000000001,
+        "Y": -18.034289999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 83,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.792003999999999,
+          9.7855539999999994
+        ]
+      },
+      "properties": {
+        "FID": 83,
+        "type": "Funeral House",
+        "X": -16.792003999999999,
+        "Y": 9.7855539999999994
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 84,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5411906000000002,
+          -16.565939
+        ]
+      },
+      "properties": {
+        "FID": 84,
+        "type": "Exit",
+        "X": 6.5411906000000002,
+        "Y": -16.565939
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9821779999999993,
+          7.9501910000000002
+        ]
+      },
+      "properties": {
+        "FID": 85,
+        "type": "Agency",
+        "X": 9.9821779999999993,
+        "Y": 7.9501910000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 86,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2300344000000001,
+          -7.5911626999999999
+        ]
+      },
+      "properties": {
+        "FID": 86,
+        "type": "Shanghai Food",
+        "X": 7.2300344000000001,
+        "Y": -7.5911626999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 87,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0503309000000001,
+          12.171208
+        ]
+      },
+      "properties": {
+        "FID": 87,
+        "type": "Museum",
+        "X": 2.0503309000000001,
+        "Y": 12.171208
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 88,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0845180000000001,
+          17.981794000000001
+        ]
+      },
+      "properties": {
+        "FID": 88,
+        "type": "Industry Association",
+        "X": -3.0845180000000001,
+        "Y": 17.981794000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 89,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.6713776999999999,
+          3.5044727
+        ]
+      },
+      "properties": {
+        "FID": 89,
+        "type": "Aquarium",
+        "X": -7.6713776999999999,
+        "Y": 3.5044727
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 90,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.427702999999999,
+          -7.1373153
+        ]
+      },
+      "properties": {
+        "FID": 90,
+        "type": "Motorcycle Service Related",
+        "X": -10.427702999999999,
+        "Y": -7.1373153
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 91,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.8607320000000005,
+          -2.6311814999999998
+        ]
+      },
+      "properties": {
+        "FID": 91,
+        "type": "Coach Ticket Office",
+        "X": -9.8607320000000005,
+        "Y": -2.6311814999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 92,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.306207000000001,
+          18.838417
+        ]
+      },
+      "properties": {
+        "FID": 92,
+        "type": "Traffic Management Station",
+        "X": -10.306207000000001,
+        "Y": 18.838417
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 93,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3292102999999997,
+          2.1815660000000001
+        ]
+      },
+      "properties": {
+        "FID": 93,
+        "type": "Shanghai Commercial Bank",
+        "X": 4.3292102999999997,
+        "Y": 2.1815660000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 94,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2385216000000003,
+          2.2636683
+        ]
+      },
+      "properties": {
+        "FID": 94,
+        "type": "Bank of Tokyo-Mitsubishi UFJ",
+        "X": 4.2385216000000003,
+        "Y": 2.2636683
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 95,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.757389999999999,
+          6.5435914999999998
+        ]
+      },
+      "properties": {
+        "FID": 95,
+        "type": "Outdoor Gym Facility",
+        "X": -12.757389999999999,
+        "Y": 6.5435914999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 96,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3609314000000001,
+          -14.559103
+        ]
+      },
+      "properties": {
+        "FID": 96,
+        "type": "Airport Departure/Arrival",
+        "X": 5.3609314000000001,
+        "Y": -14.559103
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 97,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1779060000000001,
+          0.32958013000000003
+        ]
+      },
+      "properties": {
+        "FID": 97,
+        "type": "Camping Site",
+        "X": -8.1779060000000001,
+        "Y": 0.32958013000000003
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 98,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.588853,
+          11.9686
+        ]
+      },
+      "properties": {
+        "FID": 98,
+        "type": "Flower Shop",
+        "X": 10.588853,
+        "Y": 11.9686
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 99,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0050365180000000002,
+          -6.3095913000000001
+        ]
+      },
+      "properties": {
+        "FID": 99,
+        "type": "Skating Rink",
+        "X": 0.0050365180000000002,
+        "Y": -6.3095913000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 100,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3407739999999997,
+          -7.8663262999999999
+        ]
+      },
+      "properties": {
+        "FID": 100,
+        "type": "Service Centre",
+        "X": 8.3407739999999997,
+        "Y": -7.8663262999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.887873000000001,
+          2.2106792999999998
+        ]
+      },
+      "properties": {
+        "FID": 101,
+        "type": "Commuter Bus Station",
+        "X": 12.887873000000001,
+        "Y": 2.2106792999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.1286810000000003,
+          11.071406
+        ]
+      },
+      "properties": {
+        "FID": 102,
+        "type": "Middle School",
+        "X": -4.1286810000000003,
+        "Y": 11.071406
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 103,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1606852999999999,
+          22.586884999999999
+        ]
+      },
+      "properties": {
+        "FID": 103,
+        "type": "Media Organization",
+        "X": 1.1606852999999999,
+        "Y": 22.586884999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 104,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0127525000000004,
+          -0.066828764999999998
+        ]
+      },
+      "properties": {
+        "FID": 104,
+        "type": "ABN AMRO Bank",
+        "X": 5.0127525000000004,
+        "Y": -0.066828764999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 105,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.73054,
+          16.998305999999999
+        ]
+      },
+      "properties": {
+        "FID": 105,
+        "type": "Used Automobile Dealer",
+        "X": -13.73054,
+        "Y": 16.998305999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 106,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1430876999999999,
+          -4.0081787000000002
+        ]
+      },
+      "properties": {
+        "FID": 106,
+        "type": "KTV",
+        "X": -1.1430876999999999,
+        "Y": -4.0081787000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 107,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4292009999999999,
+          5.1501926999999998
+        ]
+      },
+      "properties": {
+        "FID": 107,
+        "type": "China Merchants Bank",
+        "X": 7.4292009999999999,
+        "Y": 5.1501926999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 108,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6712769999999999,
+          3.4817486
+        ]
+      },
+      "properties": {
+        "FID": 108,
+        "type": "Water Sports Centre",
+        "X": -8.6712769999999999,
+        "Y": 3.4817486
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9881472999999996,
+          -5.8137527000000002
+        ]
+      },
+      "properties": {
+        "FID": 109,
+        "type": "Italian Food",
+        "X": 5.9881472999999996,
+        "Y": -5.8137527000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 110,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.448713,
+          -9.5274579999999993
+        ]
+      },
+      "properties": {
+        "FID": 110,
+        "type": "Brand Clothing Store",
+        "X": 14.448713,
+        "Y": -9.5274579999999993
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 111,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4055210000000002,
+          -11.6099
+        ]
+      },
+      "properties": {
+        "FID": 111,
+        "type": "Sasa",
+        "X": 7.4055210000000002,
+        "Y": -11.6099
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 112,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0806319999999996,
+          -13.998718999999999
+        ]
+      },
+      "properties": {
+        "FID": 112,
+        "type": "China Telecom Office",
+        "X": -7.0806319999999996,
+        "Y": -13.998718999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 113,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.1503296000000001,
+          17.677900000000001
+        ]
+      },
+      "properties": {
+        "FID": 113,
+        "type": "Governmental & Social Groups Related",
+        "X": -5.1503296000000001,
+        "Y": 17.677900000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 114,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.38286429999999999,
+          23.198799999999999
+        ]
+      },
+      "properties": {
+        "FID": 114,
+        "type": "Construction Company",
+        "X": 0.38286429999999999,
+        "Y": 23.198799999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 115,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.4786625,
+          16.097149999999999
+        ]
+      },
+      "properties": {
+        "FID": 115,
+        "type": "Automobile Repair",
+        "X": -14.4786625,
+        "Y": 16.097149999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 116,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.5563235000000004,
+          17.619956999999999
+        ]
+      },
+      "properties": {
+        "FID": 116,
+        "type": "Town Level Government and Institution",
+        "X": -6.5563235000000004,
+        "Y": 17.619956999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 117,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.3399179999999999,
+          16.884824999999999
+        ]
+      },
+      "properties": {
+        "FID": 117,
+        "type": "Office of Securities Business",
+        "X": 3.3399179999999999,
+        "Y": 16.884824999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 118,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.989248,
+          -11.113381
+        ]
+      },
+      "properties": {
+        "FID": 118,
+        "type": "Children's Store",
+        "X": 14.989248,
+        "Y": -11.113381
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 119,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.398772999999998,
+          -3.0933220000000001
+        ]
+      },
+      "properties": {
+        "FID": 119,
+        "type": "CRC express",
+        "X": -18.398772999999998,
+        "Y": -3.0933220000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 120,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7723295999999999,
+          -5.3563289999999997
+        ]
+      },
+      "properties": {
+        "FID": 120,
+        "type": "Pool Room",
+        "X": -1.7723295999999999,
+        "Y": -5.3563289999999997
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 121,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.748148,
+          10.68244
+        ]
+      },
+      "properties": {
+        "FID": 121,
+        "type": "Freight Ports",
+        "X": -11.748148,
+        "Y": 10.68244
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 122,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.570767,
+          15.516538000000001
+        ]
+      },
+      "properties": {
+        "FID": 122,
+        "type": "Disabled Persons' Federation",
+        "X": -3.570767,
+        "Y": 15.516538000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 123,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.8731055000000003,
+          1.8129162999999999
+        ]
+      },
+      "properties": {
+        "FID": 123,
+        "type": "Public Beach",
+        "X": -7.8731055000000003,
+        "Y": 1.8129162999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 124,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7916594000000003,
+          4.0964929999999997
+        ]
+      },
+      "properties": {
+        "FID": 124,
+        "type": "Huaxia Bank",
+        "X": 7.7916594000000003,
+        "Y": 4.0964929999999997
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 125,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6558468,
+          -8.2742930000000001
+        ]
+      },
+      "properties": {
+        "FID": 125,
+        "type": "Hotpot Restaurant",
+        "X": -2.6558468,
+        "Y": -8.2742930000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 126,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9911174999999997,
+          15.894575
+        ]
+      },
+      "properties": {
+        "FID": 126,
+        "type": "Social Security Organization",
+        "X": -6.9911174999999997,
+        "Y": 15.894575
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 127,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6210822999999999,
+          13.861238500000001
+        ]
+      },
+      "properties": {
+        "FID": 127,
+        "type": "Cultural Palace",
+        "X": -3.6210822999999999,
+        "Y": 13.861238500000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 128,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.539917,
+          2.3401079999999999
+        ]
+      },
+      "properties": {
+        "FID": 128,
+        "type": "Standard Chartered Bank",
+        "X": 7.539917,
+        "Y": 2.3401079999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 129,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6595259999999996,
+          1.5937376999999999
+        ]
+      },
+      "properties": {
+        "FID": 129,
+        "type": "Beach",
+        "X": -8.6595259999999996,
+        "Y": 1.5937376999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 130,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.148907000000001,
+          -1.1790832
+        ]
+      },
+      "properties": {
+        "FID": 130,
+        "type": "Infectious Disease Hospital",
+        "X": -16.148907000000001,
+        "Y": -1.1790832
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 131,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3706794000000002,
+          -14.101618999999999
+        ]
+      },
+      "properties": {
+        "FID": 131,
+        "type": "Airport Related",
+        "X": 4.3706794000000002,
+        "Y": -14.101618999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 132,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2230644000000002,
+          12.458816000000001
+        ]
+      },
+      "properties": {
+        "FID": 132,
+        "type": "Exit",
+        "X": 6.2230644000000002,
+        "Y": 12.458816000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 133,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5758159999999997,
+          -17.262789999999999
+        ]
+      },
+      "properties": {
+        "FID": 133,
+        "type": "Public Security Accreditation",
+        "X": 6.5758159999999997,
+        "Y": -17.262789999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 134,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.78972,
+          -10.180569
+        ]
+      },
+      "properties": {
+        "FID": 134,
+        "type": "Chinese Food Restaurant",
+        "X": -4.78972,
+        "Y": -10.180569
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 135,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.356085,
+          13.787910999999999
+        ]
+      },
+      "properties": {
+        "FID": 135,
+        "type": "Automobile Rescue",
+        "X": -16.356085,
+        "Y": 13.787910999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 136,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.637684999999999,
+          3.049744
+        ]
+      },
+      "properties": {
+        "FID": 136,
+        "type": "PARKnSHOP",
+        "X": 12.637684999999999,
+        "Y": 3.049744
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 137,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.902965,
+          -4.4380207
+        ]
+      },
+      "properties": {
+        "FID": 137,
+        "type": "Steak House",
+        "X": 7.902965,
+        "Y": -4.4380207
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 138,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0025337000000001,
+          20.625382999999999
+        ]
+      },
+      "properties": {
+        "FID": 138,
+        "type": "Enterprises",
+        "X": -1.0025337000000001,
+        "Y": 20.625382999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 139,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.270329,
+          -9.1124790000000004
+        ]
+      },
+      "properties": {
+        "FID": 139,
+        "type": "Watches Shop",
+        "X": 15.270329,
+        "Y": -9.1124790000000004
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 140,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.82273996000000005,
+          18.028621999999999
+        ]
+      },
+      "properties": {
+        "FID": 140,
+        "type": "Business Office Building",
+        "X": 0.82273996000000005,
+        "Y": 18.028621999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 141,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.8106985000000009,
+          1.8626882
+        ]
+      },
+      "properties": {
+        "FID": 141,
+        "type": "National View Spot",
+        "X": -9.8106985000000009,
+        "Y": 1.8626882
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 142,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.959333000000001,
+          -11.355485
+        ]
+      },
+      "properties": {
+        "FID": 142,
+        "type": "Comprehensive Market",
+        "X": -13.959333000000001,
+        "Y": -11.355485
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 143,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.6748694999999998,
+          19.916218000000001
+        ]
+      },
+      "properties": {
+        "FID": 143,
+        "type": "Administration for Industry & Commerce",
+        "X": -5.6748694999999998,
+        "Y": 19.916218000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 144,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.057385,
+          3.5566149
+        ]
+      },
+      "properties": {
+        "FID": 144,
+        "type": "Bank of Beijing",
+        "X": 7.057385,
+        "Y": 3.5566149
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 145,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.1222729999999999,
+          6.7113350000000001
+        ]
+      },
+      "properties": {
+        "FID": 145,
+        "type": "China Mobile Hong Kong",
+        "X": -8.1222729999999999,
+        "Y": 6.7113350000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 146,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1730835000000002,
+          12.37767
+        ]
+      },
+      "properties": {
+        "FID": 146,
+        "type": "School",
+        "X": -2.1730835000000002,
+        "Y": 12.37767
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 147,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.530424999999999,
+          10.093989000000001
+        ]
+      },
+      "properties": {
+        "FID": 147,
+        "type": "Pet Clinic",
+        "X": 11.530424999999999,
+        "Y": 10.093989000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 148,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.7518124999999998,
+          -17.258188000000001
+        ]
+      },
+      "properties": {
+        "FID": 148,
+        "type": "Ticket Business Correlation",
+        "X": 4.7518124999999998,
+        "Y": -17.258188000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 149,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8733089999999999,
+          21.834700000000002
+        ]
+      },
+      "properties": {
+        "FID": 149,
+        "type": "Publishing House",
+        "X": 2.8733089999999999,
+        "Y": 21.834700000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 150,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9333729999999996,
+          -13.682575
+        ]
+      },
+      "properties": {
+        "FID": 150,
+        "type": "Light Rail Station",
+        "X": 8.9333729999999996,
+        "Y": -13.682575
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 151,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.2541180000000001,
+          -9.3445070000000001
+        ]
+      },
+      "properties": {
+        "FID": 151,
+        "type": "Chaozhou Food",
+        "X": -5.2541180000000001,
+        "Y": -9.3445070000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 152,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.619572,
+          -0.27848289999999998
+        ]
+      },
+      "properties": {
+        "FID": 152,
+        "type": "Bookstore",
+        "X": 14.619572,
+        "Y": -0.27848289999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 153,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.639372000000002,
+          -3.7751144999999999
+        ]
+      },
+      "properties": {
+        "FID": 153,
+        "type": "Orthopedic Hospital",
+        "X": -18.639372000000002,
+        "Y": -3.7751144999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 154,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.8199880000000004,
+          -15.820641999999999
+        ]
+      },
+      "properties": {
+        "FID": 154,
+        "type": "Home Electronics Hypermarket",
+        "X": -6.8199880000000004,
+        "Y": -15.820641999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 155,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5433870000000001,
+          6.3478180000000002
+        ]
+      },
+      "properties": {
+        "FID": 155,
+        "type": "China Construction Bank",
+        "X": 6.5433870000000001,
+        "Y": 6.3478180000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 156,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.838487000000001,
+          -6.6611614000000001
+        ]
+      },
+      "properties": {
+        "FID": 156,
+        "type": "Watsons",
+        "X": 10.838487000000001,
+        "Y": -6.6611614000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 157,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.6222480000000008,
+          -15.446102
+        ]
+      },
+      "properties": {
+        "FID": 157,
+        "type": "China Tietong Office",
+        "X": -9.6222480000000008,
+        "Y": -15.446102
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 158,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9388109999999994,
+          -10.853498999999999
+        ]
+      },
+      "properties": {
+        "FID": 158,
+        "type": "Reebok",
+        "X": 9.9388109999999994,
+        "Y": -10.853498999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 159,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.3437032999999996,
+          -14.266774
+        ]
+      },
+      "properties": {
+        "FID": 159,
+        "type": "China Mobile Office",
+        "X": -6.3437032999999996,
+        "Y": -14.266774
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 160,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.92231,
+          20.365100000000002
+        ]
+      },
+      "properties": {
+        "FID": 160,
+        "type": "Dazhong",
+        "X": -14.92231,
+        "Y": 20.365100000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 161,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.57454519999999998,
+          9.8501659999999998
+        ]
+      },
+      "properties": {
+        "FID": 161,
+        "type": "Arts Organization",
+        "X": -0.57454519999999998,
+        "Y": 9.8501659999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 162,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.7869890000000002,
+          0.78181964000000004
+        ]
+      },
+      "properties": {
+        "FID": 162,
+        "type": "Ferry Ticket Office",
+        "X": -4.7869890000000002,
+        "Y": 0.78181964000000004
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 163,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.64199156000000002,
+          19.833538000000001
+        ]
+      },
+      "properties": {
+        "FID": 163,
+        "type": "Auction House",
+        "X": 0.64199156000000002,
+        "Y": 19.833538000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 164,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4050946,
+          -14.130516999999999
+        ]
+      },
+      "properties": {
+        "FID": 164,
+        "type": "Telecom Office",
+        "X": -7.4050946,
+        "Y": -14.130516999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 165,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.5550811000000002,
+          -4.1516169999999999
+        ]
+      },
+      "properties": {
+        "FID": 165,
+        "type": "Pub",
+        "X": 3.5550811000000002,
+        "Y": -4.1516169999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 166,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.9610369999999993,
+          4.4083600000000001
+        ]
+      },
+      "properties": {
+        "FID": 166,
+        "type": "Provincial View Spot",
+        "X": -9.9610369999999993,
+        "Y": 4.4083600000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 167,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.264707999999999,
+          -3.4559196999999999
+        ]
+      },
+      "properties": {
+        "FID": 167,
+        "type": "Deco Cloth Store",
+        "X": 19.264707999999999,
+        "Y": -3.4559196999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 168,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8696640000000002,
+          -7.9976039999999999
+        ]
+      },
+      "properties": {
+        "FID": 168,
+        "type": "American Food",
+        "X": 3.8696640000000002,
+        "Y": -7.9976039999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 169,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.61621340000000002,
+          -17.704802999999998
+        ]
+      },
+      "properties": {
+        "FID": 169,
+        "type": "Audit Firm",
+        "X": 0.61621340000000002,
+        "Y": -17.704802999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 170,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.567771,
+          13.232808
+        ]
+      },
+      "properties": {
+        "FID": 170,
+        "type": "Filling Station",
+        "X": -14.567771,
+        "Y": 13.232808
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 171,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0930620000000002,
+          -1.6281220999999999
+        ]
+      },
+      "properties": {
+        "FID": 171,
+        "type": "Complex Food",
+        "X": -2.0930620000000002,
+        "Y": -1.6281220999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 172,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.244417,
+          -9.6005160000000007
+        ]
+      },
+      "properties": {
+        "FID": 172,
+        "type": "Flea Market",
+        "X": -10.244417,
+        "Y": -9.6005160000000007
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 173,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.866336,
+          -4.67638
+        ]
+      },
+      "properties": {
+        "FID": 173,
+        "type": "Suning",
+        "X": 14.866336,
+        "Y": -4.67638
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 174,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4277629999999997,
+          7.6296229999999996
+        ]
+      },
+      "properties": {
+        "FID": 174,
+        "type": "Charging Station",
+        "X": -7.4277629999999997,
+        "Y": 7.6296229999999996
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 175,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.2913099999999993,
+          15.375908000000001
+        ]
+      },
+      "properties": {
+        "FID": 175,
+        "type": "Procuratorate",
+        "X": -9.2913099999999993,
+        "Y": 15.375908000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 176,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.935364,
+          16.922318000000001
+        ]
+      },
+      "properties": {
+        "FID": 176,
+        "type": "Vehicle Management Authority",
+        "X": -11.935364,
+        "Y": 16.922318000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 177,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.960882,
+          12.5785055
+        ]
+      },
+      "properties": {
+        "FID": 177,
+        "type": "Democratic Party",
+        "X": -10.960882,
+        "Y": 12.5785055
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 178,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.0141019999999994,
+          6.0709850000000003
+        ]
+      },
+      "properties": {
+        "FID": 178,
+        "type": "China Minsheng Bank",
+        "X": 8.0141019999999994,
+        "Y": 6.0709850000000003
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 179,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.506012999999999,
+          -5.3185570000000002
+        ]
+      },
+      "properties": {
+        "FID": 179,
+        "type": "Maternity Hospital",
+        "X": -14.506012999999999,
+        "Y": -5.3185570000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 180,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.89221554999999997,
+          2.8446052000000002
+        ]
+      },
+      "properties": {
+        "FID": 180,
+        "type": "Shandong Food",
+        "X": -0.89221554999999997,
+        "Y": 2.8446052000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 181,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4281305999999998,
+          21.23348
+        ]
+      },
+      "properties": {
+        "FID": 181,
+        "type": "Journal Publisher",
+        "X": 2.4281305999999998,
+        "Y": 21.23348
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 182,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.139544000000001,
+          9.3539670000000008
+        ]
+      },
+      "properties": {
+        "FID": 182,
+        "type": "Cemetery",
+        "X": -17.139544000000001,
+        "Y": 9.3539670000000008
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 183,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8431376999999998,
+          -16.035046000000001
+        ]
+      },
+      "properties": {
+        "FID": 183,
+        "type": "Taxi",
+        "X": 4.8431376999999998,
+        "Y": -16.035046000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 184,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3388949999999999,
+          6.9731230000000002
+        ]
+      },
+      "properties": {
+        "FID": 184,
+        "type": "Football Field",
+        "X": -4.3388949999999999,
+        "Y": 6.9731230000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 185,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.624248,
+          8.6283089999999998
+        ]
+      },
+      "properties": {
+        "FID": 185,
+        "type": "Passenger Port",
+        "X": -10.624248,
+        "Y": 8.6283089999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 186,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9249799999999997,
+          16.797208999999999
+        ]
+      },
+      "properties": {
+        "FID": 186,
+        "type": "Police Station",
+        "X": -7.9249799999999997,
+        "Y": 16.797208999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7976643000000001,
+          -10.298413999999999
+        ]
+      },
+      "properties": {
+        "FID": 187,
+        "type": "Icecream Shop",
+        "X": 1.7976643000000001,
+        "Y": -10.298413999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 188,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.4817057,
+          3.6857774000000001
+        ]
+      },
+      "properties": {
+        "FID": 188,
+        "type": "Tumor Hospital",
+        "X": -4.4817057,
+        "Y": 3.6857774000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 189,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.0397489999999996,
+          14.225085
+        ]
+      },
+      "properties": {
+        "FID": 189,
+        "type": "Community Center",
+        "X": -5.0397489999999996,
+        "Y": 14.225085
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 190,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.4704056000000003,
+          14.354538
+        ]
+      },
+      "properties": {
+        "FID": 190,
+        "type": "Planetarium",
+        "X": -6.4704056000000003,
+        "Y": 14.354538
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 191,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.281140000000001,
+          -8.6253010000000003
+        ]
+      },
+      "properties": {
+        "FID": 191,
+        "type": "Camera Shop",
+        "X": 10.281140000000001,
+        "Y": -8.6253010000000003
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 192,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -19.26933,
+          13.899288
+        ]
+      },
+      "properties": {
+        "FID": 192,
+        "type": "Express Post",
+        "X": -19.26933,
+        "Y": 13.899288
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 193,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.430127000000001,
+          8.8768349999999998
+        ]
+      },
+      "properties": {
+        "FID": 193,
+        "type": "Border Crossing",
+        "X": -10.430127000000001,
+        "Y": 8.8768349999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 194,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0023860140000000001,
+          -6.6711254000000002
+        ]
+      },
+      "properties": {
+        "FID": 194,
+        "type": "Shops",
+        "X": 0.0023860140000000001,
+        "Y": -6.6711254000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 195,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.6672335,
+          19.913658000000002
+        ]
+      },
+      "properties": {
+        "FID": 195,
+        "type": "Consumers' Association",
+        "X": -5.6672335,
+        "Y": 19.913658000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 196,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9485226,
+          -15.514872
+        ]
+      },
+      "properties": {
+        "FID": 196,
+        "type": "Traditional Brand",
+        "X": -3.9485226,
+        "Y": -15.514872
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 197,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3693347,
+          5.1172532999999998
+        ]
+      },
+      "properties": {
+        "FID": 197,
+        "type": "Golf Related",
+        "X": -2.3693347,
+        "Y": 5.1172532999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 198,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.7207366999999998,
+          5.275728
+        ]
+      },
+      "properties": {
+        "FID": 198,
+        "type": "Shenzhen Rural Commercial Bank",
+        "X": 2.7207366999999998,
+        "Y": 5.275728
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 199,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.922843,
+          -0.29773741999999997
+        ]
+      },
+      "properties": {
+        "FID": 199,
+        "type": "Mediterranean Food",
+        "X": 11.922843,
+        "Y": -0.29773741999999997
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 200,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.0530655,
+          -8.3511109999999995
+        ]
+      },
+      "properties": {
+        "FID": 200,
+        "type": "Commercial Street",
+        "X": 1.0530655,
+        "Y": -8.3511109999999995
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 201,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.738934,
+          -1.7382903000000001
+        ]
+      },
+      "properties": {
+        "FID": 201,
+        "type": "Emergency Center",
+        "X": -17.738934,
+        "Y": -1.7382903000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 202,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.812654,
+          0.73338599999999998
+        ]
+      },
+      "properties": {
+        "FID": 202,
+        "type": "Building",
+        "X": 10.812654,
+        "Y": 0.73338599999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 203,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.53082969999999996,
+          -11.7241535
+        ]
+      },
+      "properties": {
+        "FID": 203,
+        "type": "Anhui Food",
+        "X": -0.53082969999999996,
+        "Y": -11.7241535
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 204,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8813521999999998,
+          22.297215999999999
+        ]
+      },
+      "properties": {
+        "FID": 204,
+        "type": "Newspaper Office",
+        "X": 2.8813521999999998,
+        "Y": 22.297215999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 205,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.007132,
+          -6.0357380000000003
+        ]
+      },
+      "properties": {
+        "FID": 205,
+        "type": "Carrefour",
+        "X": 14.007132,
+        "Y": -6.0357380000000003
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 206,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.263667999999999,
+          -5.6571420000000003
+        ]
+      },
+      "properties": {
+        "FID": 206,
+        "type": "Amusement Park",
+        "X": 12.263667999999999,
+        "Y": -5.6571420000000003
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 207,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.517003000000001,
+          2.9561226
+        ]
+      },
+      "properties": {
+        "FID": 207,
+        "type": "Scenery Spot",
+        "X": -11.517003000000001,
+        "Y": 2.9561226
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 208,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.99308059999999998,
+          21.902714
+        ]
+      },
+      "properties": {
+        "FID": 208,
+        "type": "Medical Company",
+        "X": -0.99308059999999998,
+        "Y": 21.902714
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 209,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9223832999999999,
+          -16.609515999999999
+        ]
+      },
+      "properties": {
+        "FID": 209,
+        "type": "Comprehensive Home Electronics Shopping Center",
+        "X": -6.9223832999999999,
+        "Y": -16.609515999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 210,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.723363000000001,
+          -12.358965
+        ]
+      },
+      "properties": {
+        "FID": 210,
+        "type": "Beauty and Hairdressing Store",
+        "X": -10.723363000000001,
+        "Y": -12.358965
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 211,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.1584710000000005,
+          15.555694000000001
+        ]
+      },
+      "properties": {
+        "FID": 211,
+        "type": "Court",
+        "X": -9.1584710000000005,
+        "Y": 15.555694000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 212,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.003339,
+          18.458765
+        ]
+      },
+      "properties": {
+        "FID": 212,
+        "type": "Traffic Vehicle Management Related",
+        "X": -10.003339,
+        "Y": 18.458765
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 213,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2580185000000004,
+          -1.4858465000000001
+        ]
+      },
+      "properties": {
+        "FID": 213,
+        "type": "Wing Hang Bank",
+        "X": 4.2580185000000004,
+        "Y": -1.4858465000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 214,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.7066325999999998,
+          -1.4637003
+        ]
+      },
+      "properties": {
+        "FID": 214,
+        "type": "Commercial-residential Building",
+        "X": -5.7066325999999998,
+        "Y": -1.4637003
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 215,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7553629999999991,
+          -10.367858999999999
+        ]
+      },
+      "properties": {
+        "FID": 215,
+        "type": "Foreign Organization Related",
+        "X": 8.7553629999999991,
+        "Y": -10.367858999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 216,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0914593000000004,
+          -8.4566339999999993
+        ]
+      },
+      "properties": {
+        "FID": 216,
+        "type": "German Food",
+        "X": 7.0914593000000004,
+        "Y": -8.4566339999999993
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 217,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5618026,
+          -1.8534904999999999
+        ]
+      },
+      "properties": {
+        "FID": 217,
+        "type": "Three-star Hotel",
+        "X": -2.5618026,
+        "Y": -1.8534904999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 218,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.175658,
+          -11.475709999999999
+        ]
+      },
+      "properties": {
+        "FID": 218,
+        "type": "Gift Store",
+        "X": 14.175658,
+        "Y": -11.475709999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 219,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3141339000000001,
+          18.477053000000002
+        ]
+      },
+      "properties": {
+        "FID": 219,
+        "type": "Research Institution",
+        "X": -1.3141339000000001,
+        "Y": 18.477053000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 220,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.777287999999999,
+          19.180986000000001
+        ]
+      },
+      "properties": {
+        "FID": 220,
+        "type": "Church",
+        "X": -18.777287999999999,
+        "Y": 19.180986000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 221,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.873699,
+          -0.98378429999999994
+        ]
+      },
+      "properties": {
+        "FID": 221,
+        "type": "Science & Technology Museum",
+        "X": 13.873699,
+        "Y": -0.98378429999999994
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 222,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.1900240000000002,
+          -10.238701000000001
+        ]
+      },
+      "properties": {
+        "FID": 222,
+        "type": "Hunan Food",
+        "X": -5.1900240000000002,
+        "Y": -10.238701000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 223,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7025244000000002,
+          8.4220020000000009
+        ]
+      },
+      "properties": {
+        "FID": 223,
+        "type": "Badminton Court",
+        "X": -3.7025244000000002,
+        "Y": 8.4220020000000009
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 224,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.528428999999999,
+          17.231327
+        ]
+      },
+      "properties": {
+        "FID": 224,
+        "type": "Automobile Club",
+        "X": -15.528428999999999,
+        "Y": 17.231327
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 225,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.4797349999999998,
+          10.877101
+        ]
+      },
+      "properties": {
+        "FID": 225,
+        "type": "Villa",
+        "X": -6.4797349999999998,
+        "Y": 10.877101
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 226,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.78163990000000005,
+          -1.9528308000000001
+        ]
+      },
+      "properties": {
+        "FID": 226,
+        "type": "Bowling Hall",
+        "X": 0.78163990000000005,
+        "Y": -1.9528308000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 227,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.73488810000000004,
+          21.477179
+        ]
+      },
+      "properties": {
+        "FID": 227,
+        "type": "Accounting Firm",
+        "X": 0.73488810000000004,
+        "Y": 21.477179
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 228,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7042099999999998,
+          14.86529
+        ]
+      },
+      "properties": {
+        "FID": 228,
+        "type": "Nursing Home",
+        "X": -2.7042099999999998,
+        "Y": 14.86529
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 229,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.6558380000000001,
+          18.191555000000001
+        ]
+      },
+      "properties": {
+        "FID": 229,
+        "type": "District & County Level Government and Institution",
+        "X": -5.6558380000000001,
+        "Y": 18.191555000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 230,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6968439999999996,
+          5.1011600000000001
+        ]
+      },
+      "properties": {
+        "FID": 230,
+        "type": "Ping An Bank",
+        "X": 5.6968439999999996,
+        "Y": 5.1011600000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 231,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.373101,
+          -11.343677
+        ]
+      },
+      "properties": {
+        "FID": 231,
+        "type": "Vegetable Market",
+        "X": -13.373101,
+        "Y": -11.343677
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 232,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.3038259999999999,
+          -1.2508007000000001
+        ]
+      },
+      "properties": {
+        "FID": 232,
+        "type": "Youth Hostel",
+        "X": -5.3038259999999999,
+        "Y": -1.2508007000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 233,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9309469999999997,
+          -6.8625363999999998
+        ]
+      },
+      "properties": {
+        "FID": 233,
+        "type": "Pizza Hut",
+        "X": 9.9309469999999997,
+        "Y": -6.8625363999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 234,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.80142329999999995,
+          20.843779000000001
+        ]
+      },
+      "properties": {
+        "FID": 234,
+        "type": "Professional Service Firm",
+        "X": 0.80142329999999995,
+        "Y": 20.843779000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 235,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.457578,
+          -5.2821280000000002
+        ]
+      },
+      "properties": {
+        "FID": 235,
+        "type": "Wal-Mart",
+        "X": 13.457578,
+        "Y": -5.2821280000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 236,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.27373,
+          5.8695225999999998
+        ]
+      },
+      "properties": {
+        "FID": 236,
+        "type": "Park",
+        "X": -12.27373,
+        "Y": 5.8695225999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 237,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4084450000000004,
+          5.1800240000000004
+        ]
+      },
+      "properties": {
+        "FID": 237,
+        "type": "China CITIC Bank",
+        "X": 8.4084450000000004,
+        "Y": 5.1800240000000004
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 238,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.7647617000000002,
+          -0.33789590000000003
+        ]
+      },
+      "properties": {
+        "FID": 238,
+        "type": "DBS",
+        "X": 3.7647617000000002,
+        "Y": -0.33789590000000003
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 239,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.902718,
+          -1.7882233999999999
+        ]
+      },
+      "properties": {
+        "FID": 239,
+        "type": "Furniture Store",
+        "X": 20.902718,
+        "Y": -1.7882233999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 240,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.991,
+          13.759690000000001
+        ]
+      },
+      "properties": {
+        "FID": 240,
+        "type": "Logistics Service",
+        "X": -18.991,
+        "Y": 13.759690000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 241,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9224740000000002,
+          8.4558669999999996
+        ]
+      },
+      "properties": {
+        "FID": 241,
+        "type": "Parking Lot Entrance",
+        "X": -5.9224740000000002,
+        "Y": 8.4558669999999996
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 242,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.188610000000001,
+          0.099633169999999993
+        ]
+      },
+      "properties": {
+        "FID": 242,
+        "type": "Chest Hospital",
+        "X": -16.188610000000001,
+        "Y": 0.099633169999999993
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 243,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0171156000000003,
+          -11.018644999999999
+        ]
+      },
+      "properties": {
+        "FID": 243,
+        "type": "Fujian Food",
+        "X": -7.0171156000000003,
+        "Y": -11.018644999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 244,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.6884549,
+          5.2876159999999999
+        ]
+      },
+      "properties": {
+        "FID": 244,
+        "type": "Rural Commercial Bank",
+        "X": 2.6884549,
+        "Y": 5.2876159999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 245,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.342981,
+          13.887897499999999
+        ]
+      },
+      "properties": {
+        "FID": 245,
+        "type": "Library",
+        "X": -4.342981,
+        "Y": 13.887897499999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 246,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6526420000000002,
+          -15.331023
+        ]
+      },
+      "properties": {
+        "FID": 246,
+        "type": "Indoor Booth",
+        "X": 5.6526420000000002,
+        "Y": -15.331023
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 247,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.6662085000000002,
+          -0.18814401
+        ]
+      },
+      "properties": {
+        "FID": 247,
+        "type": "The Royal Bank of Scotland",
+        "X": 3.6662085000000002,
+        "Y": -0.18814401
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 248,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.2605209999999998,
+          15.762907999999999
+        ]
+      },
+      "properties": {
+        "FID": 248,
+        "type": "Fire Fighting Organization",
+        "X": -7.2605209999999998,
+        "Y": 15.762907999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 249,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.868511,
+          -11.910856000000001
+        ]
+      },
+      "properties": {
+        "FID": 249,
+        "type": "Personal Care Items Shop",
+        "X": 14.868511,
+        "Y": -11.910856000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 250,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.040289000000001,
+          -0.72731435
+        ]
+      },
+      "properties": {
+        "FID": 250,
+        "type": "AAA Class Hospital",
+        "X": -18.040289000000001,
+        "Y": -0.72731435
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 251,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.9327480000000001,
+          11.283737
+        ]
+      },
+      "properties": {
+        "FID": 251,
+        "type": "Kindergarten",
+        "X": -4.9327480000000001,
+        "Y": 11.283737
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 252,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6356177000000001,
+          0.31592554
+        ]
+      },
+      "properties": {
+        "FID": 252,
+        "type": "Hong Kong Hang Seng Bank",
+        "X": 7.6356177000000001,
+        "Y": 0.31592554
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 253,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.7786493000000001,
+          -7.0582932999999999
+        ]
+      },
+      "properties": {
+        "FID": 253,
+        "type": "Jiangsu Food",
+        "X": 3.7786493000000001,
+        "Y": -7.0582932999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 254,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.071253,
+          1.4649338000000001
+        ]
+      },
+      "properties": {
+        "FID": 254,
+        "type": "Young Pioneer",
+        "X": 13.071253,
+        "Y": 1.4649338000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 255,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6504080000000005,
+          -1.3965844000000001
+        ]
+      },
+      "properties": {
+        "FID": 255,
+        "type": "Public Bank (Hong Kong)",
+        "X": 8.6504080000000005,
+        "Y": -1.3965844000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 256,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.3334080000000004,
+          -10.461458
+        ]
+      },
+      "properties": {
+        "FID": 256,
+        "type": "Sichuan Food",
+        "X": -5.3334080000000004,
+        "Y": -10.461458
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 257,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4233026999999998,
+          -0.59266730000000001
+        ]
+      },
+      "properties": {
+        "FID": 257,
+        "type": "Maxim's",
+        "X": 6.4233026999999998,
+        "Y": -0.59266730000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 258,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.909751999999999,
+          10.937875999999999
+        ]
+      },
+      "properties": {
+        "FID": 258,
+        "type": "Pet Market",
+        "X": 10.909751999999999,
+        "Y": 10.937875999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 259,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.537205,
+          -11.513873
+        ]
+      },
+      "properties": {
+        "FID": 259,
+        "type": "Fruits Market",
+        "X": -12.537205,
+        "Y": -11.513873
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 260,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.49192753,
+          12.818966
+        ]
+      },
+      "properties": {
+        "FID": 260,
+        "type": "Red Cross",
+        "X": -0.49192753,
+        "Y": 12.818966
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 261,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.019120999999998,
+          -0.89494209999999996
+        ]
+      },
+      "properties": {
+        "FID": 261,
+        "type": "Lighting & Porcelain Market",
+        "X": 20.019120999999998,
+        "Y": -0.89494209999999996
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9021180000000002,
+          -11.27139
+        ]
+      },
+      "properties": {
+        "FID": 262,
+        "type": "Food & Beverages Related",
+        "X": -2.9021180000000002,
+        "Y": -11.27139
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 263,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.996240999999999,
+          -10.829681000000001
+        ]
+      },
+      "properties": {
+        "FID": 263,
+        "type": "Local Products Franchise Store",
+        "X": -14.996240999999999,
+        "Y": -10.829681000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 264,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0190047999999998,
+          11.424813
+        ]
+      },
+      "properties": {
+        "FID": 264,
+        "type": "Vocational Technical School",
+        "X": -3.0190047999999998,
+        "Y": 11.424813
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 265,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2536740000000002,
+          -5.7587979999999996
+        ]
+      },
+      "properties": {
+        "FID": 265,
+        "type": "French Food",
+        "X": 7.2536740000000002,
+        "Y": -5.7587979999999996
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.406487,
+          11.397774
+        ]
+      },
+      "properties": {
+        "FID": 266,
+        "type": "Other Energy Station",
+        "X": -13.406487,
+        "Y": 11.397774
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 267,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.8763550000000002,
+          -2.5421969999999998
+        ]
+      },
+      "properties": {
+        "FID": 267,
+        "type": "Coach Station",
+        "X": -9.8763550000000002,
+        "Y": -2.5421969999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.7710609999999996,
+          24.741330000000001
+        ]
+      },
+      "properties": {
+        "FID": 268,
+        "type": "Information Centre",
+        "X": -9.7710609999999996,
+        "Y": 24.741330000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 269,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.80255,
+          19.196535000000001
+        ]
+      },
+      "properties": {
+        "FID": 269,
+        "type": "Church",
+        "X": -18.80255,
+        "Y": 19.196535000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 270,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6892969999999998,
+          1.5205230999999999
+        ]
+      },
+      "properties": {
+        "FID": 270,
+        "type": "The People's Bank of China",
+        "X": 8.6892969999999998,
+        "Y": 1.5205230999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 271,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.456956,
+          -7.2663865000000003
+        ]
+      },
+      "properties": {
+        "FID": 271,
+        "type": "Motorcycle Repair",
+        "X": -10.456956,
+        "Y": -7.2663865000000003
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 272,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.803832999999999,
+          11.343541999999999
+        ]
+      },
+      "properties": {
+        "FID": 272,
+        "type": "Plants & Pet Market",
+        "X": 10.803832999999999,
+        "Y": 11.343541999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 273,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6365959999999999,
+          6.0317015999999999
+        ]
+      },
+      "properties": {
+        "FID": 273,
+        "type": "Agricultural Bank of China",
+        "X": 5.6365959999999999,
+        "Y": 6.0317015999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 274,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.2489399999999993,
+          12.451533
+        ]
+      },
+      "properties": {
+        "FID": 274,
+        "type": "Dormitory",
+        "X": -8.2489399999999993,
+        "Y": 12.451533
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 275,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6246171,
+          10.975073999999999
+        ]
+      },
+      "properties": {
+        "FID": 275,
+        "type": "Art Gallery",
+        "X": 1.6246171,
+        "Y": 10.975073999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 276,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.231617999999999,
+          -10.917448
+        ]
+      },
+      "properties": {
+        "FID": 276,
+        "type": "Sports Store",
+        "X": 13.231617999999999,
+        "Y": -10.917448
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 277,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1027589999999998,
+          11.784856
+        ]
+      },
+      "properties": {
+        "FID": 277,
+        "type": "Exhibition Hall",
+        "X": 2.1027589999999998,
+        "Y": 11.784856
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 278,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.5204810000000002,
+          8.2954670000000004
+        ]
+      },
+      "properties": {
+        "FID": 278,
+        "type": "Transportation Service Related",
+        "X": -6.5204810000000002,
+        "Y": 8.2954670000000004
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 279,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.287989,
+          11.671521
+        ]
+      },
+      "properties": {
+        "FID": 279,
+        "type": "Ferry Station",
+        "X": -15.287989,
+        "Y": 11.671521
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 280,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6814546999999997,
+          -18.613931999999998
+        ]
+      },
+      "properties": {
+        "FID": 280,
+        "type": "Railway Station",
+        "X": 4.6814546999999997,
+        "Y": -18.613931999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 281,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.0810440000000003,
+          -0.035700160000000002
+        ]
+      },
+      "properties": {
+        "FID": 281,
+        "type": "Squash Court",
+        "X": -8.0810440000000003,
+        "Y": -0.035700160000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 282,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.7402569,
+          -7.8602460000000001
+        ]
+      },
+      "properties": {
+        "FID": 282,
+        "type": "Pedestrian Street",
+        "X": 0.7402569,
+        "Y": -7.8602460000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 283,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5588655,
+          -11.00081
+        ]
+      },
+      "properties": {
+        "FID": 283,
+        "type": "Bakery",
+        "X": 1.5588655,
+        "Y": -11.00081
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 284,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9809830000000002,
+          15.460632
+        ]
+      },
+      "properties": {
+        "FID": 284,
+        "type": "Move Service",
+        "X": 8.9809830000000002,
+        "Y": 15.460632
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 285,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.121829,
+          -6.4410585999999999
+        ]
+      },
+      "properties": {
+        "FID": 285,
+        "type": "Starbucks Coffee",
+        "X": 9.121829,
+        "Y": -6.4410585999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 286,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5870929,
+          -6.8891629999999999
+        ]
+      },
+      "properties": {
+        "FID": 286,
+        "type": "Small Commodity Market",
+        "X": 1.5870929,
+        "Y": -6.8891629999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 287,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6397641999999999,
+          3.2286134
+        ]
+      },
+      "properties": {
+        "FID": 287,
+        "type": "METRO",
+        "X": 1.6397641999999999,
+        "Y": 3.2286134
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 288,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.140931999999999,
+          12.175504999999999
+        ]
+      },
+      "properties": {
+        "FID": 288,
+        "type": "Filling Station",
+        "X": -15.140931999999999,
+        "Y": 12.175504999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 289,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.954025,
+          5.1395520000000001
+        ]
+      },
+      "properties": {
+        "FID": 289,
+        "type": "Botanical Garden",
+        "X": -10.954025,
+        "Y": 5.1395520000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 290,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.574519,
+          5.4358700000000004
+        ]
+      },
+      "properties": {
+        "FID": 290,
+        "type": "Park & Square",
+        "X": -12.574519,
+        "Y": 5.4358700000000004
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 291,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4632971000000001,
+          5.2548636999999996
+        ]
+      },
+      "properties": {
+        "FID": 291,
+        "type": "Golf Accessories Shop",
+        "X": -3.4632971000000001,
+        "Y": 5.2548636999999996
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 292,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6200466000000002,
+          -10.978634
+        ]
+      },
+      "properties": {
+        "FID": 292,
+        "type": "BMW Lifestyle",
+        "X": 6.6200466000000002,
+        "Y": -10.978634
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 293,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.9368649999999992,
+          3.3565814
+        ]
+      },
+      "properties": {
+        "FID": 293,
+        "type": "Facilities within the park",
+        "X": -8.9368649999999992,
+        "Y": 3.3565814
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 294,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.463031000000001,
+          3.7611015000000001
+        ]
+      },
+      "properties": {
+        "FID": 294,
+        "type": "View Point",
+        "X": -10.463031000000001,
+        "Y": 3.7611015000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 295,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.0225374999999999,
+          11.392753000000001
+        ]
+      },
+      "properties": {
+        "FID": 295,
+        "type": "Antique Shop",
+        "X": 3.0225374999999999,
+        "Y": 11.392753000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 296,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.6360454999999998,
+          -9.755592
+        ]
+      },
+      "properties": {
+        "FID": 296,
+        "type": "Internet Bar",
+        "X": -7.6360454999999998,
+        "Y": -9.755592
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 297,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9784497000000001,
+          0.63461020000000001
+        ]
+      },
+      "properties": {
+        "FID": 297,
+        "type": "Convention & Exhibition Center",
+        "X": -1.9784497000000001,
+        "Y": 0.63461020000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 298,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2131040000000004,
+          -8.4232999999999993
+        ]
+      },
+      "properties": {
+        "FID": 298,
+        "type": "Mexican Food",
+        "X": 5.2131040000000004,
+        "Y": -8.4232999999999993
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 299,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.876822000000001,
+          19.212489999999999
+        ]
+      },
+      "properties": {
+        "FID": 299,
+        "type": "Huatai Property Insurance Company Ltd.",
+        "X": -14.876822000000001,
+        "Y": 19.212489999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 300,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.860975,
+          7.2072799999999999
+        ]
+      },
+      "properties": {
+        "FID": 300,
+        "type": "Farm",
+        "X": -16.860975,
+        "Y": 7.2072799999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 301,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.36081160000000001,
+          9.2535360000000004
+        ]
+      },
+      "properties": {
+        "FID": 301,
+        "type": "Taekwondo Venue",
+        "X": -0.36081160000000001,
+        "Y": 9.2535360000000004
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 302,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9631280000000002,
+          6.9004364000000002
+        ]
+      },
+      "properties": {
+        "FID": 302,
+        "type": "China Everbright Bank",
+        "X": 7.9631280000000002,
+        "Y": 6.9004364000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 303,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9664964999999999,
+          -4.9902115
+        ]
+      },
+      "properties": {
+        "FID": 303,
+        "type": "Bath & Massage Center",
+        "X": -3.9664964999999999,
+        "Y": -4.9902115
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 304,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0438575999999999,
+          -10.35826
+        ]
+      },
+      "properties": {
+        "FID": 304,
+        "type": "Saint's Alp Teahouse",
+        "X": 7.0438575999999999,
+        "Y": -10.35826
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 305,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.683831999999999,
+          -1.5960056
+        ]
+      },
+      "properties": {
+        "FID": 305,
+        "type": "Hospital",
+        "X": -17.683831999999999,
+        "Y": -1.5960056
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 306,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.771774000000001,
+          14.51877
+        ]
+      },
+      "properties": {
+        "FID": 306,
+        "type": "Airport Freight Station",
+        "X": -18.771774000000001,
+        "Y": 14.51877
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 307,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.481668000000001,
+          -1.9831433000000001
+        ]
+      },
+      "properties": {
+        "FID": 307,
+        "type": "Plastic Surgery",
+        "X": -13.481668000000001,
+        "Y": -1.9831433000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 308,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0497160000000001,
+          -13.734883999999999
+        ]
+      },
+      "properties": {
+        "FID": 308,
+        "type": "Duty-free Shop",
+        "X": 6.0497160000000001,
+        "Y": -13.734883999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 309,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.897099999999998,
+          6.7948320000000004
+        ]
+      },
+      "properties": {
+        "FID": 309,
+        "type": "Fruit Cultivation Base",
+        "X": -16.897099999999998,
+        "Y": 6.7948320000000004
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 310,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6147879999999999,
+          -6.5062749999999996
+        ]
+      },
+      "properties": {
+        "FID": 310,
+        "type": "South Korean Cuisine",
+        "X": 4.6147879999999999,
+        "Y": -6.5062749999999996
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 311,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1457405,
+          -2.0589963999999998
+        ]
+      },
+      "properties": {
+        "FID": 311,
+        "type": "Theatre & Cinema Related",
+        "X": 13.1457405,
+        "Y": -2.0589963999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 312,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.848582,
+          -0.62083644000000004
+        ]
+      },
+      "properties": {
+        "FID": 312,
+        "type": "Brain Hospital",
+        "X": -15.848582,
+        "Y": -0.62083644000000004
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 313,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4021933,
+          7.0768589999999998
+        ]
+      },
+      "properties": {
+        "FID": 313,
+        "type": "Sports Centre",
+        "X": -3.4021933,
+        "Y": 7.0768589999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 314,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6563309999999998,
+          22.071204999999999
+        ]
+      },
+      "properties": {
+        "FID": 314,
+        "type": "Industrial and Commercial Taxation Institution",
+        "X": -8.6563309999999998,
+        "Y": 22.071204999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 315,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.110699,
+          -8.5718940000000003
+        ]
+      },
+      "properties": {
+        "FID": 315,
+        "type": "Tobacco & Wine Franchise Store",
+        "X": -14.110699,
+        "Y": -8.5718940000000003
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 316,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.904064,
+          16.566582
+        ]
+      },
+      "properties": {
+        "FID": 316,
+        "type": "Automobile Maintenance/Decoration",
+        "X": -14.904064,
+        "Y": 16.566582
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 317,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0687765999999996,
+          -8.2612860000000001
+        ]
+      },
+      "properties": {
+        "FID": 317,
+        "type": "Hostel",
+        "X": -7.0687765999999996,
+        "Y": -8.2612860000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 318,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.6888966999999999,
+          11.753284000000001
+        ]
+      },
+      "properties": {
+        "FID": 318,
+        "type": "Commercial House Related",
+        "X": -7.6888966999999999,
+        "Y": 11.753284000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 319,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3776061999999998,
+          -11.183116
+        ]
+      },
+      "properties": {
+        "FID": 319,
+        "type": "Fast Food Restaurant",
+        "X": -3.3776061999999998,
+        "Y": -11.183116
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 320,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9503680000000001,
+          -5.1555815000000003
+        ]
+      },
+      "properties": {
+        "FID": 320,
+        "type": "Post Office",
+        "X": -6.9503680000000001,
+        "Y": -5.1555815000000003
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 321,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.8924675,
+          14.031181
+        ]
+      },
+      "properties": {
+        "FID": 321,
+        "type": "Car Wash",
+        "X": -14.8924675,
+        "Y": 14.031181
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 322,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.1916450000000003,
+          8.6791750000000008
+        ]
+      },
+      "properties": {
+        "FID": 322,
+        "type": "Public Parking Lot",
+        "X": -7.1916450000000003,
+        "Y": 8.6791750000000008
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 323,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.983692000000001,
+          -3.7996539999999999
+        ]
+      },
+      "properties": {
+        "FID": 323,
+        "type": "Franchise Store",
+        "X": 18.983692000000001,
+        "Y": -3.7996539999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 324,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7443220000000004,
+          -1.8666011
+        ]
+      },
+      "properties": {
+        "FID": 324,
+        "type": "British Food",
+        "X": 8.7443220000000004,
+        "Y": -1.8666011
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 325,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.1142035000000003,
+          23.465026999999999
+        ]
+      },
+      "properties": {
+        "FID": 325,
+        "type": "Mining Company",
+        "X": -4.1142035000000003,
+        "Y": 23.465026999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 326,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.667503,
+          2.3646199999999999
+        ]
+      },
+      "properties": {
+        "FID": 326,
+        "type": "Facilities within the School",
+        "X": -16.667503,
+        "Y": 2.3646199999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 327,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.3949610000000003,
+          20.278199999999998
+        ]
+      },
+      "properties": {
+        "FID": 327,
+        "type": "Electric Supply Service Office",
+        "X": -8.3949610000000003,
+        "Y": 20.278199999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 328,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.2110909999999997,
+          -9.9433520000000009
+        ]
+      },
+      "properties": {
+        "FID": 328,
+        "type": "Convenience Store",
+        "X": -9.2110909999999997,
+        "Y": -9.9433520000000009
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 329,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8561289999999993,
+          -8.9840319999999991
+        ]
+      },
+      "properties": {
+        "FID": 329,
+        "type": "Cafe de Coral",
+        "X": 8.8561289999999993,
+        "Y": -8.9840319999999991
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 330,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.553581000000001,
+          9.7496279999999995
+        ]
+      },
+      "properties": {
+        "FID": 330,
+        "type": "Funeral Facilities",
+        "X": -17.553581000000001,
+        "Y": 9.7496279999999995
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 331,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6898386000000001,
+          13.396471
+        ]
+      },
+      "properties": {
+        "FID": 331,
+        "type": "Archives Hall",
+        "X": 1.6898386000000001,
+        "Y": 13.396471
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 332,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.446171,
+          -9.8168059999999997
+        ]
+      },
+      "properties": {
+        "FID": 332,
+        "type": "Brand Shoes Store",
+        "X": 14.446171,
+        "Y": -9.8168059999999997
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 333,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.587085999999999,
+          -3.0541643999999999
+        ]
+      },
+      "properties": {
+        "FID": 333,
+        "type": "Health Center",
+        "X": -16.587085999999999,
+        "Y": -3.0541643999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 334,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0400109999999998,
+          22.758635999999999
+        ]
+      },
+      "properties": {
+        "FID": 334,
+        "type": "Machinery and Electronics",
+        "X": -2.0400109999999998,
+        "Y": 22.758635999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 335,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.040384,
+          -8.508248
+        ]
+      },
+      "properties": {
+        "FID": 335,
+        "type": "Jewelry Store",
+        "X": 16.040384,
+        "Y": -8.508248
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 336,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0224605000000002,
+          9.4574995000000008
+        ]
+      },
+      "properties": {
+        "FID": 336,
+        "type": "Reserved Parking Lot",
+        "X": -6.0224605000000002,
+        "Y": 9.4574995000000008
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 337,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3323179999999999,
+          18.856560000000002
+        ]
+      },
+      "properties": {
+        "FID": 337,
+        "type": "China Pacific Insurance Company",
+        "X": 5.3323179999999999,
+        "Y": 18.856560000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 338,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.806718,
+          9.9488400000000006
+        ]
+      },
+      "properties": {
+        "FID": 338,
+        "type": "Veterinary Hospital",
+        "X": 12.806718,
+        "Y": 9.9488400000000006
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 339,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8231487,
+          -18.592585
+        ]
+      },
+      "properties": {
+        "FID": 339,
+        "type": "Freight Railway Station",
+        "X": 3.8231487,
+        "Y": -18.592585
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 340,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5321119999999997,
+          4.5808619999999998
+        ]
+      },
+      "properties": {
+        "FID": 340,
+        "type": "Zoo",
+        "X": -8.5321119999999997,
+        "Y": 4.5808619999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 341,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.2683319999999991,
+          -6.9074289999999996
+        ]
+      },
+      "properties": {
+        "FID": 341,
+        "type": "Driving School",
+        "X": -9.2683319999999991,
+        "Y": -6.9074289999999996
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 342,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.4941944999999999,
+          20.181215000000002
+        ]
+      },
+      "properties": {
+        "FID": 342,
+        "type": "Daily Life Service Place",
+        "X": 3.4941944999999999,
+        "Y": 20.181215000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 343,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3274652,
+          8.1210629999999995
+        ]
+      },
+      "properties": {
+        "FID": 343,
+        "type": "Table Tennis Hall",
+        "X": -1.3274652,
+        "Y": 8.1210629999999995
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 344,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.75928130000000005,
+          -17.097992000000001
+        ]
+      },
+      "properties": {
+        "FID": 344,
+        "type": "Airline Tickets Office",
+        "X": -0.75928130000000005,
+        "Y": -17.097992000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 345,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.5953989999999996,
+          -14.724633000000001
+        ]
+      },
+      "properties": {
+        "FID": 345,
+        "type": "Mobile Handsets Sales",
+        "X": -6.5953989999999996,
+        "Y": -14.724633000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 346,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.065795,
+          -5.882765
+        ]
+      },
+      "properties": {
+        "FID": 346,
+        "type": "Water Supply Service Office",
+        "X": -11.065795,
+        "Y": -5.882765
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 347,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.1318096999999998,
+          0.87959540000000003
+        ]
+      },
+      "properties": {
+        "FID": 347,
+        "type": "Taikang Life Insurance Company",
+        "X": 3.1318096999999998,
+        "Y": 0.87959540000000003
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 348,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1122866,
+          9.4329249999999991
+        ]
+      },
+      "properties": {
+        "FID": 348,
+        "type": "Ophthalmology Hospital",
+        "X": 5.1122866,
+        "Y": 9.4329249999999991
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 349,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.936226,
+          -13.832178000000001
+        ]
+      },
+      "properties": {
+        "FID": 349,
+        "type": "Shopping Plaza",
+        "X": 13.936226,
+        "Y": -13.832178000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 350,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.8206369999999996,
+          -4.9663873000000001
+        ]
+      },
+      "properties": {
+        "FID": 350,
+        "type": "Postal Savings Bank of China",
+        "X": -6.8206369999999996,
+        "Y": -4.9663873000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 351,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.508607,
+          11.218866999999999
+        ]
+      },
+      "properties": {
+        "FID": 351,
+        "type": "State Level Organization & Institution",
+        "X": -11.508607,
+        "Y": 11.218866999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 352,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2429993000000001,
+          23.107403000000001
+        ]
+      },
+      "properties": {
+        "FID": 352,
+        "type": "Factory",
+        "X": -3.2429993000000001,
+        "Y": 23.107403000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 353,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6947749999999999,
+          -15.431334
+        ]
+      },
+      "properties": {
+        "FID": 353,
+        "type": "Fairwood",
+        "X": 6.6947749999999999,
+        "Y": -15.431334
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 354,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.466526,
+          12.801764
+        ]
+      },
+      "properties": {
+        "FID": 354,
+        "type": "Adult Education",
+        "X": -2.466526,
+        "Y": 12.801764
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 355,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.16107630000000001,
+          9.7742190000000004
+        ]
+      },
+      "properties": {
+        "FID": 355,
+        "type": "Training Institution",
+        "X": -0.16107630000000001,
+        "Y": 9.7742190000000004
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 356,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5218240000000005,
+          0.85084329999999997
+        ]
+      },
+      "properties": {
+        "FID": 356,
+        "type": "JPMorgan Chase Bank",
+        "X": 8.5218240000000005,
+        "Y": 0.85084329999999997
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 357,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3980139999999999,
+          4.7408840000000003
+        ]
+      },
+      "properties": {
+        "FID": 357,
+        "type": "Golf Training Course",
+        "X": -3.3980139999999999,
+        "Y": 4.7408840000000003
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 358,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7296517,
+          -7.8048760000000001
+        ]
+      },
+      "properties": {
+        "FID": 358,
+        "type": "Teahouse",
+        "X": -1.7296517,
+        "Y": -7.8048760000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 359,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.278801000000001,
+          14.020327999999999
+        ]
+      },
+      "properties": {
+        "FID": 359,
+        "type": "Logistics Warehouse Space",
+        "X": -18.278801000000001,
+        "Y": 14.020327999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 360,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.532316,
+          -11.80086
+        ]
+      },
+      "properties": {
+        "FID": 360,
+        "type": "Seafood Market",
+        "X": -14.532316,
+        "Y": -11.80086
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 361,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.082201,
+          2.5874967999999998
+        ]
+      },
+      "properties": {
+        "FID": 361,
+        "type": "Buddhist & Taoist Temple",
+        "X": -13.082201,
+        "Y": 2.5874967999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 362,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.839117999999999,
+          7.8415046000000004
+        ]
+      },
+      "properties": {
+        "FID": 362,
+        "type": "Port & Marina",
+        "X": -10.839117999999999,
+        "Y": 7.8415046000000004
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 363,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3603354000000003,
+          -6.5159310000000001
+        ]
+      },
+      "properties": {
+        "FID": 363,
+        "type": "Thai/Vietnamese Food",
+        "X": 5.3603354000000003,
+        "Y": -6.5159310000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 364,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.973617000000001,
+          -12.168803
+        ]
+      },
+      "properties": {
+        "FID": 364,
+        "type": "Laundry",
+        "X": -10.973617000000001,
+        "Y": -12.168803
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 365,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6827740000000002,
+          -14.393585
+        ]
+      },
+      "properties": {
+        "FID": 365,
+        "type": "Departure Lounge",
+        "X": 5.6827740000000002,
+        "Y": -14.393585
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 366,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1481075000000001,
+          22.860958
+        ]
+      },
+      "properties": {
+        "FID": 366,
+        "type": "Industrial Park",
+        "X": -3.1481075000000001,
+        "Y": 22.860958
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 367,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1489867999999999,
+          -8.7931860000000004
+        ]
+      },
+      "properties": {
+        "FID": 367,
+        "type": "Cantonese Food",
+        "X": -3.1489867999999999,
+        "Y": -8.7931860000000004
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 368,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9132093999999999,
+          -9.9927189999999992
+        ]
+      },
+      "properties": {
+        "FID": 368,
+        "type": "Northwestern Chinese Food",
+        "X": -1.9132093999999999,
+        "Y": -9.9927189999999992
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 369,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.518068,
+          6.9597344000000003
+        ]
+      },
+      "properties": {
+        "FID": 369,
+        "type": "Plucking Park",
+        "X": -16.518068,
+        "Y": 6.9597344000000003
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 370,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3631130000000002,
+          5.4915719999999997
+        ]
+      },
+      "properties": {
+        "FID": 370,
+        "type": "ICBC",
+        "X": 6.3631130000000002,
+        "Y": 5.4915719999999997
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 371,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0296574000000001,
+          9.1711639999999992
+        ]
+      },
+      "properties": {
+        "FID": 371,
+        "type": "Foreign Embassy and Consulate",
+        "X": 2.0296574000000001,
+        "Y": 9.1711639999999992
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 372,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.887354999999999,
+          -7.8463153999999999
+        ]
+      },
+      "properties": {
+        "FID": 372,
+        "type": "Optical Shop",
+        "X": 12.887354999999999,
+        "Y": -7.8463153999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 373,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7734156999999999,
+          -4.6592155000000002
+        ]
+      },
+      "properties": {
+        "FID": 373,
+        "type": "Beijing Food",
+        "X": 1.7734156999999999,
+        "Y": -4.6592155000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 374,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.41178345999999999,
+          -9.39785
+        ]
+      },
+      "properties": {
+        "FID": 374,
+        "type": "Taiwan Food",
+        "X": -0.41178345999999999,
+        "Y": -9.39785
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 375,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0980635000000003,
+          5.9910702999999996
+        ]
+      },
+      "properties": {
+        "FID": 375,
+        "type": "Bank of Communications",
+        "X": 7.0980635000000003,
+        "Y": 5.9910702999999996
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 376,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3809619999999998,
+          7.394533
+        ]
+      },
+      "properties": {
+        "FID": 376,
+        "type": "Tennis Court",
+        "X": -3.3809619999999998,
+        "Y": 7.394533
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 377,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.974974,
+          -3.2555665999999999
+        ]
+      },
+      "properties": {
+        "FID": 377,
+        "type": "Medical and Health Care Service Place",
+        "X": -15.974974,
+        "Y": -3.2555665999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 378,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.4591159999999999,
+          -4.8908987000000002
+        ]
+      },
+      "properties": {
+        "FID": 378,
+        "type": "Job Center",
+        "X": -9.4591159999999999,
+        "Y": -4.8908987000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 379,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.490228,
+          9.5142910000000001
+        ]
+      },
+      "properties": {
+        "FID": 379,
+        "type": "Bus Station Related",
+        "X": -14.490228,
+        "Y": 9.5142910000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 380,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.6278503,
+          -9.8600390000000004
+        ]
+      },
+      "properties": {
+        "FID": 380,
+        "type": "Leisure Food Restaurant",
+        "X": 2.6278503,
+        "Y": -9.8600390000000004
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 381,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9145984999999999,
+          14.557891
+        ]
+      },
+      "properties": {
+        "FID": 381,
+        "type": "Recreation Place",
+        "X": -3.9145984999999999,
+        "Y": 14.557891
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 382,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3158814999999999,
+          -2.7846472000000002
+        ]
+      },
+      "properties": {
+        "FID": 382,
+        "type": "Night Club",
+        "X": -1.3158814999999999,
+        "Y": -2.7846472000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 383,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.8672930000000001,
+          2.1114609999999998
+        ]
+      },
+      "properties": {
+        "FID": 383,
+        "type": "Holiday & Nursing Resort",
+        "X": -6.8672930000000001,
+        "Y": 2.1114609999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 384,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.0909724000000001,
+          -17.285080000000001
+        ]
+      },
+      "properties": {
+        "FID": 384,
+        "type": "Get a Refund for a Ticket",
+        "X": 4.0909724000000001,
+        "Y": -17.285080000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 385,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.115335,
+          16.007137
+        ]
+      },
+      "properties": {
+        "FID": 385,
+        "type": "Automobile Parts Sales",
+        "X": -15.115335,
+        "Y": 16.007137
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 386,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.891553999999999,
+          -0.44249440000000001
+        ]
+      },
+      "properties": {
+        "FID": 386,
+        "type": "Hardware Store",
+        "X": 19.891553999999999,
+        "Y": -0.44249440000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 387,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.5440206999999999,
+          15.475740999999999
+        ]
+      },
+      "properties": {
+        "FID": 387,
+        "type": "Below Town level Government and Institution",
+        "X": -5.5440206999999999,
+        "Y": 15.475740999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 388,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7055849999999992,
+          9.2792689999999993
+        ]
+      },
+      "properties": {
+        "FID": 388,
+        "type": "Pawn House",
+        "X": 8.7055849999999992,
+        "Y": 9.2792689999999993
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 389,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.6828279999999998,
+          11.198933
+        ]
+      },
+      "properties": {
+        "FID": 389,
+        "type": "Elementary School",
+        "X": -4.6828279999999998,
+        "Y": 11.198933
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 390,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2120214000000002,
+          1.3827404000000001
+        ]
+      },
+      "properties": {
+        "FID": 390,
+        "type": "Citibank",
+        "X": 7.2120214000000002,
+        "Y": 1.3827404000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 391,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.435165,
+          2.8447862000000002
+        ]
+      },
+      "properties": {
+        "FID": 391,
+        "type": "Memorial Hall",
+        "X": -13.435165,
+        "Y": 2.8447862000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 392,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.288662,
+          5.0002779999999998
+        ]
+      },
+      "properties": {
+        "FID": 392,
+        "type": "Baby Service Place",
+        "X": 12.288662,
+        "Y": 5.0002779999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 393,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.026606902000000002,
+          19.668659999999999
+        ]
+      },
+      "properties": {
+        "FID": 393,
+        "type": "Non-local Government Representative Office",
+        "X": 0.026606902000000002,
+        "Y": 19.668659999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 394,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.942879999999999,
+          7.5629710000000001
+        ]
+      },
+      "properties": {
+        "FID": 394,
+        "type": "Flower Nurserey Base",
+        "X": -16.942879999999999,
+        "Y": 7.5629710000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 395,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.59856,
+          -14.992965999999999
+        ]
+      },
+      "properties": {
+        "FID": 395,
+        "type": "China Unicom Office",
+        "X": -5.59856,
+        "Y": -14.992965999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 396,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5138685999999999,
+          7.5096407000000003
+        ]
+      },
+      "properties": {
+        "FID": 396,
+        "type": "Natatorium",
+        "X": -2.5138685999999999,
+        "Y": 7.5096407000000003
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 397,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4402794999999999,
+          -6.4991507999999998
+        ]
+      },
+      "properties": {
+        "FID": 397,
+        "type": "Brazilian Food",
+        "X": 7.4402794999999999,
+        "Y": -6.4991507999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 398,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6193284999999999,
+          -14.913197
+        ]
+      },
+      "properties": {
+        "FID": 398,
+        "type": "Pasture",
+        "X": 1.6193284999999999,
+        "Y": -14.913197
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 399,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.474904,
+          16.433589999999999
+        ]
+      },
+      "properties": {
+        "FID": 399,
+        "type": "Automobile Service Related",
+        "X": -14.474904,
+        "Y": 16.433589999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 400,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8396369999999997,
+          -18.694970999999999
+        ]
+      },
+      "properties": {
+        "FID": 400,
+        "type": "Sell Ticket",
+        "X": 5.8396369999999997,
+        "Y": -18.694970999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 401,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4741343999999996,
+          -14.383791
+        ]
+      },
+      "properties": {
+        "FID": 401,
+        "type": "Airport",
+        "X": 5.4741343999999996,
+        "Y": -14.383791
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 402,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.188741,
+          -11.274449000000001
+        ]
+      },
+      "properties": {
+        "FID": 402,
+        "type": "Clothing Store",
+        "X": 14.188741,
+        "Y": -11.274449000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 403,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1510359999999995,
+          -0.75668939999999996
+        ]
+      },
+      "properties": {
+        "FID": 403,
+        "type": "Wing Lung Bank",
+        "X": 9.1510359999999995,
+        "Y": -0.75668939999999996
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 404,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3053070000000009,
+          -12.624159000000001
+        ]
+      },
+      "properties": {
+        "FID": 404,
+        "type": "Vegetable Planting Base",
+        "X": 8.3053070000000009,
+        "Y": -12.624159000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 405,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9021726000000001,
+          11.023876
+        ]
+      },
+      "properties": {
+        "FID": 405,
+        "type": "Residential Area",
+        "X": -7.9021726000000001,
+        "Y": 11.023876
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 406,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.988516000000001,
+          18.833318999999999
+        ]
+      },
+      "properties": {
+        "FID": 406,
+        "type": "Mosque",
+        "X": -12.988516000000001,
+        "Y": 18.833318999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 407,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.906546000000001,
+          -9.9025060000000007
+        ]
+      },
+      "properties": {
+        "FID": 407,
+        "type": "Brand Leather Ware Store",
+        "X": 14.906546000000001,
+        "Y": -9.9025060000000007
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 408,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8428664000000001,
+          1.5640472000000001
+        ]
+      },
+      "properties": {
+        "FID": 408,
+        "type": "Nanyang Commercial Bank",
+        "X": 5.8428664000000001,
+        "Y": 1.5640472000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 409,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.8946486,
+          16.837551000000001
+        ]
+      },
+      "properties": {
+        "FID": 409,
+        "type": "Public Security Organization",
+        "X": -7.8946486,
+        "Y": 16.837551000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 410,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.245739,
+          -9.1762549999999994
+        ]
+      },
+      "properties": {
+        "FID": 410,
+        "type": "adidas",
+        "X": 12.245739,
+        "Y": -9.1762549999999994
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 411,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5234509999999997,
+          -5.4968195
+        ]
+      },
+      "properties": {
+        "FID": 411,
+        "type": "Pacific Coffee Company",
+        "X": 8.5234509999999997,
+        "Y": -5.4968195
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 412,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6586359999999996,
+          -4.9577416999999997
+        ]
+      },
+      "properties": {
+        "FID": 412,
+        "type": "Mannings",
+        "X": 9.6586359999999996,
+        "Y": -4.9577416999999997
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 413,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3521233000000001,
+          -2.0790731999999998
+        ]
+      },
+      "properties": {
+        "FID": 413,
+        "type": "Hotel",
+        "X": -3.3521233000000001,
+        "Y": -2.0790731999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 414,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.3006042999999998,
+          16.134399999999999
+        ]
+      },
+      "properties": {
+        "FID": 414,
+        "type": "Women's Federation",
+        "X": -4.3006042999999998,
+        "Y": 16.134399999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 415,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8517029999999997,
+          -4.3177110000000001
+        ]
+      },
+      "properties": {
+        "FID": 415,
+        "type": "Coffee House",
+        "X": 5.8517029999999997,
+        "Y": -4.3177110000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 416,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.24284099000000001,
+          13.055974000000001
+        ]
+      },
+      "properties": {
+        "FID": 416,
+        "type": "Radio Station",
+        "X": -0.24284099000000001,
+        "Y": 13.055974000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 417,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.206757,
+          8.549061
+        ]
+      },
+      "properties": {
+        "FID": 417,
+        "type": "Ski Field",
+        "X": -12.206757,
+        "Y": 8.549061
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 418,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7532697000000002,
+          18.496327999999998
+        ]
+      },
+      "properties": {
+        "FID": 418,
+        "type": "Prefecture Level Government and Institution",
+        "X": -3.7532697000000002,
+        "Y": 18.496327999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 419,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.22550128,
+          14.267398
+        ]
+      },
+      "properties": {
+        "FID": 419,
+        "type": "TV Station",
+        "X": -0.22550128,
+        "Y": 14.267398
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 420,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.432729,
+          -4.7807282999999998
+        ]
+      },
+      "properties": {
+        "FID": 420,
+        "type": "CRC",
+        "X": 12.432729,
+        "Y": -4.7807282999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 421,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8588800000000001,
+          18.865445999999999
+        ]
+      },
+      "properties": {
+        "FID": 421,
+        "type": "Law Firm",
+        "X": 2.8588800000000001,
+        "Y": 18.865445999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 422,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.728129,
+          17.591104999999999
+        ]
+      },
+      "properties": {
+        "FID": 422,
+        "type": "Governmental Organization Related",
+        "X": -5.728129,
+        "Y": 17.591104999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 423,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.790590000000002,
+          2.3368660000000001
+        ]
+      },
+      "properties": {
+        "FID": 423,
+        "type": "Poultry Breeding Base",
+        "X": -17.790590000000002,
+        "Y": 2.3368660000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 424,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0121545999999997,
+          18.166589999999999
+        ]
+      },
+      "properties": {
+        "FID": 424,
+        "type": "Insurance Company",
+        "X": 5.0121545999999997,
+        "Y": 18.166589999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 425,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6462960000000004,
+          17.440425999999999
+        ]
+      },
+      "properties": {
+        "FID": 425,
+        "type": "Ping An Insurance Company of China",
+        "X": 5.6462960000000004,
+        "Y": 17.440425999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 426,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7834289999999999,
+          -1.6943322000000001
+        ]
+      },
+      "properties": {
+        "FID": 426,
+        "type": "China Reinsurance Company",
+        "X": 6.7834289999999999,
+        "Y": -1.6943322000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 427,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.093734,
+          9.8341270000000005
+        ]
+      },
+      "properties": {
+        "FID": 427,
+        "type": "Dah Sing Bank",
+        "X": 13.093734,
+        "Y": 9.8341270000000005
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 428,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.541174,
+          3.0849001
+        ]
+      },
+      "properties": {
+        "FID": 428,
+        "type": "Cemetery",
+        "X": -13.541174,
+        "Y": 3.0849001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 429,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.006111000000001,
+          4.4181889999999999
+        ]
+      },
+      "properties": {
+        "FID": 429,
+        "type": "Race Track",
+        "X": -10.006111000000001,
+        "Y": 4.4181889999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 430,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.148697,
+          12.224486000000001
+        ]
+      },
+      "properties": {
+        "FID": 430,
+        "type": "Provincial Level Government and Institution",
+        "X": -11.148697,
+        "Y": 12.224486000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 431,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8546709999999997,
+          -4.6764673999999999
+        ]
+      },
+      "properties": {
+        "FID": 431,
+        "type": "Western Restaurant",
+        "X": 4.8546709999999997,
+        "Y": -4.6764673999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 432,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.921668,
+          5.7769054999999998
+        ]
+      },
+      "properties": {
+        "FID": 432,
+        "type": "Baby Natatorium",
+        "X": 11.921668,
+        "Y": 5.7769054999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 433,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.285204999999999,
+          -7.2040524000000001
+        ]
+      },
+      "properties": {
+        "FID": 433,
+        "type": "Shopping Related Places",
+        "X": 15.285204999999999,
+        "Y": -7.2040524000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 434,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6417986,
+          20.079836
+        ]
+      },
+      "properties": {
+        "FID": 434,
+        "type": "Patent Office",
+        "X": 1.6417986,
+        "Y": 20.079836
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 435,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.77434,
+          22.912872
+        ]
+      },
+      "properties": {
+        "FID": 435,
+        "type": "Finance Company",
+        "X": -11.77434,
+        "Y": 22.912872
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 436,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.4729890000000001,
+          17.809925
+        ]
+      },
+      "properties": {
+        "FID": 436,
+        "type": "Traffic Management Authority",
+        "X": -9.4729890000000001,
+        "Y": 17.809925
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 437,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.706688,
+          0.56131410000000004
+        ]
+      },
+      "properties": {
+        "FID": 437,
+        "type": "Psychiatric Hospital",
+        "X": -16.706688,
+        "Y": 0.56131410000000004
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 438,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9749379999999999,
+          5.8226576000000003
+        ]
+      },
+      "properties": {
+        "FID": 438,
+        "type": "Bank of China",
+        "X": 5.9749379999999999,
+        "Y": 5.8226576000000003
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 439,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0984964000000002,
+          1.9880899000000001
+        ]
+      },
+      "properties": {
+        "FID": 439,
+        "type": "Bank of East Asia",
+        "X": 7.0984964000000002,
+        "Y": 1.9880899000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 440,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9243490999999999,
+          -4.0668755000000001
+        ]
+      },
+      "properties": {
+        "FID": 440,
+        "type": "Circle K",
+        "X": -1.9243490999999999,
+        "Y": -4.0668755000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 441,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5655450000000002,
+          -5.7202710000000003
+        ]
+      },
+      "properties": {
+        "FID": 441,
+        "type": "Japanese Cuisine",
+        "X": 5.5655450000000002,
+        "Y": -5.7202710000000003
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 442,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0041209999999996,
+          -10.168022000000001
+        ]
+      },
+      "properties": {
+        "FID": 442,
+        "type": "Local Special Food",
+        "X": -4.0041209999999996,
+        "Y": -10.168022000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 443,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.4320029999999999,
+          -9.0243640000000003
+        ]
+      },
+      "properties": {
+        "FID": 443,
+        "type": "Lottery Store",
+        "X": -8.4320029999999999,
+        "Y": -9.0243640000000003
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 444,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.949526000000001,
+          -7.0450787999999998
+        ]
+      },
+      "properties": {
+        "FID": 444,
+        "type": "Motorcycle Sales",
+        "X": -11.949526000000001,
+        "Y": -7.0450787999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 445,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.711722999999999,
+          16.044432
+        ]
+      },
+      "properties": {
+        "FID": 445,
+        "type": "Automobile Sales",
+        "X": -13.711722999999999,
+        "Y": 16.044432
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 446,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.9313870000000009,
+          5.5465960000000001
+        ]
+      },
+      "properties": {
+        "FID": 446,
+        "type": "Horse Riding Club",
+        "X": -9.9313870000000009,
+        "Y": 5.5465960000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 447,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0419797,
+          -10.2568035
+        ]
+      },
+      "properties": {
+        "FID": 447,
+        "type": "Yunnan & Guizhou Food",
+        "X": -1.0419797,
+        "Y": -10.2568035
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 448,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.030532218999999999,
+          22.355118000000001
+        ]
+      },
+      "properties": {
+        "FID": 448,
+        "type": "Commercial Trade",
+        "X": 0.030532218999999999,
+        "Y": 22.355118000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 449,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.7937500000000002,
+          23.362217000000001
+        ]
+      },
+      "properties": {
+        "FID": 449,
+        "type": "Authentication Services",
+        "X": -7.7937500000000002,
+        "Y": 23.362217000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 450,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.4431194999999999,
+          5.9180646000000001
+        ]
+      },
+      "properties": {
+        "FID": 450,
+        "type": "Heliport",
+        "X": -5.4431194999999999,
+        "Y": 5.9180646000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 451,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5826497000000002,
+          -2.4118482999999999
+        ]
+      },
+      "properties": {
+        "FID": 451,
+        "type": "New China Life Insurance Company",
+        "X": 6.5826497000000002,
+        "Y": -2.4118482999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 452,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.342542,
+          -5.6391068000000004
+        ]
+      },
+      "properties": {
+        "FID": 452,
+        "type": "McDonald's",
+        "X": 10.342542,
+        "Y": -5.6391068000000004
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 453,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5739806000000001,
+          7.2401853000000003
+        ]
+      },
+      "properties": {
+        "FID": 453,
+        "type": "Sports Places",
+        "X": -1.5739806000000001,
+        "Y": 7.2401853000000003
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 454,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.426701,
+          -5.8414010000000003
+        ]
+      },
+      "properties": {
+        "FID": 454,
+        "type": "Cinema",
+        "X": 11.426701,
+        "Y": -5.8414010000000003
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 455,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.9598500000000003,
+          9.0845599999999997
+        ]
+      },
+      "properties": {
+        "FID": 455,
+        "type": "Parking Lot Related",
+        "X": -6.9598500000000003,
+        "Y": 9.0845599999999997
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 456,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.08528,
+          -9.6499079999999999
+        ]
+      },
+      "properties": {
+        "FID": 456,
+        "type": "Ferry Terminal",
+        "X": 6.08528,
+        "Y": -9.6499079999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 457,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.857225,
+          23.032526000000001
+        ]
+      },
+      "properties": {
+        "FID": 457,
+        "type": "Special Trade House",
+        "X": -11.857225,
+        "Y": 23.032526000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 458,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7303009999999999,
+          -7.2709820000000001
+        ]
+      },
+      "properties": {
+        "FID": 458,
+        "type": "Indian Food",
+        "X": 5.7303009999999999,
+        "Y": -7.2709820000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 459,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.405251,
+          -7.3402580000000004
+        ]
+      },
+      "properties": {
+        "FID": 459,
+        "type": "Bike Shop",
+        "X": -11.405251,
+        "Y": -7.3402580000000004
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 460,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.917422999999999,
+          -9.3846589999999992
+        ]
+      },
+      "properties": {
+        "FID": 460,
+        "type": "Medicine Health Care Related",
+        "X": -14.917422999999999,
+        "Y": -9.3846589999999992
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 461,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4935675000000002,
+          -18.946041000000001
+        ]
+      },
+      "properties": {
+        "FID": 461,
+        "type": "Waiting Room",
+        "X": 5.4935675000000002,
+        "Y": -18.946041000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 462,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.95701939999999996,
+          -5.4907526999999998
+        ]
+      },
+      "properties": {
+        "FID": 462,
+        "type": "Game Center",
+        "X": -0.95701939999999996,
+        "Y": -5.4907526999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 463,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3068340000000003,
+          -16.401789000000001
+        ]
+      },
+      "properties": {
+        "FID": 463,
+        "type": "Endorse the Ticket",
+        "X": 5.3068340000000003,
+        "Y": -16.401789000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 464,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9594560000000003,
+          -18.224367000000001
+        ]
+      },
+      "properties": {
+        "FID": 464,
+        "type": "Ticket Entrance",
+        "X": 4.9594560000000003,
+        "Y": -18.224367000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 465,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.168663,
+          17.086635999999999
+        ]
+      },
+      "properties": {
+        "FID": 465,
+        "type": "Securities Company",
+        "X": 3.168663,
+        "Y": 17.086635999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 466,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.877186999999999,
+          10.018788000000001
+        ]
+      },
+      "properties": {
+        "FID": 466,
+        "type": "Veterinary Station",
+        "X": 13.877186999999999,
+        "Y": 10.018788000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 467,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7622470000000003,
+          -10.081543
+        ]
+      },
+      "properties": {
+        "FID": 467,
+        "type": "PUMA",
+        "X": 9.7622470000000003,
+        "Y": -10.081543
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 468,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.381062,
+          9.4233790000000006
+        ]
+      },
+      "properties": {
+        "FID": 468,
+        "type": "Roadside Parking Lot",
+        "X": -8.381062,
+        "Y": 9.4233790000000006
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 469,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.67090464000000005,
+          0.4415501
+        ]
+      },
+      "properties": {
+        "FID": 469,
+        "type": "UBC Coffee",
+        "X": 0.67090464000000005,
+        "Y": 0.4415501
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 470,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.0666532999999996,
+          8.2473489999999998
+        ]
+      },
+      "properties": {
+        "FID": 470,
+        "type": "Parking Lot Exit",
+        "X": -6.0666532999999996,
+        "Y": 8.2473489999999998
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 471,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0026960000000003,
+          -9.0456350000000008
+        ]
+      },
+      "properties": {
+        "FID": 471,
+        "type": "Yoshinoya",
+        "X": 9.0026960000000003,
+        "Y": -9.0456350000000008
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 472,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4426956000000004,
+          1.8211242999999999
+        ]
+      },
+      "properties": {
+        "FID": 472,
+        "type": "Resort",
+        "X": -7.4426956000000004,
+        "Y": 1.8211242999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 473,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.6137033000000001,
+          8.8657330000000005
+        ]
+      },
+      "properties": {
+        "FID": 473,
+        "type": "Parking Lot Entrance & Exit",
+        "X": -6.6137033000000001,
+        "Y": 8.8657330000000005
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 474,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5196039999999993,
+          5.7062679999999997
+        ]
+      },
+      "properties": {
+        "FID": 474,
+        "type": "7-ELEVEn",
+        "X": 9.5196039999999993,
+        "Y": 5.7062679999999997
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 475,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.504082,
+          -0.77666570000000001
+        ]
+      },
+      "properties": {
+        "FID": 475,
+        "type": "Home Building Materials Market",
+        "X": 20.504082,
+        "Y": -0.77666570000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 476,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.739224999999999,
+          -10.865285
+        ]
+      },
+      "properties": {
+        "FID": 476,
+        "type": "Li-Ning",
+        "X": 12.739224999999999,
+        "Y": -10.865285
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 477,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.088760000000001,
+          2.6724057000000001
+        ]
+      },
+      "properties": {
+        "FID": 477,
+        "type": "Tourist Attraction",
+        "X": -11.088760000000001,
+        "Y": 2.6724057000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 478,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.732988000000001,
+          16.094631
+        ]
+      },
+      "properties": {
+        "FID": 478,
+        "type": "Vehicle Assessment Service",
+        "X": -12.732988000000001,
+        "Y": 16.094631
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 479,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.239622000000001,
+          -7.0116800000000001
+        ]
+      },
+      "properties": {
+        "FID": 479,
+        "type": "KFC",
+        "X": 11.239622000000001,
+        "Y": -7.0116800000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 480,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1876163000000002,
+          12.500934000000001
+        ]
+      },
+      "properties": {
+        "FID": 480,
+        "type": "Subway Station",
+        "X": 6.1876163000000002,
+        "Y": 12.500934000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 481,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.140103,
+          -2.1042350000000001
+        ]
+      },
+      "properties": {
+        "FID": 481,
+        "type": "Special Hospital",
+        "X": -15.140103,
+        "Y": -2.1042350000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 482,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.923413,
+          10.129018
+        ]
+      },
+      "properties": {
+        "FID": 482,
+        "type": "Pet's Store",
+        "X": 10.923413,
+        "Y": 10.129018
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 483,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.9833784000000003,
+          -1.2653475999999999
+        ]
+      },
+      "properties": {
+        "FID": 483,
+        "type": "Accommodation Service Related",
+        "X": -4.9833784000000003,
+        "Y": -1.2653475999999999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 484,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.475116999999999,
+          -1.4693316000000001
+        ]
+      },
+      "properties": {
+        "FID": 484,
+        "type": "ENT Hospital",
+        "X": -15.475116999999999,
+        "Y": -1.4693316000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 485,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.646146999999999,
+          19.192999
+        ]
+      },
+      "properties": {
+        "FID": 485,
+        "type": "Automobile Rental",
+        "X": -12.646146999999999,
+        "Y": 19.192999
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 486,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.298214,
+          -9.3282550000000004
+        ]
+      },
+      "properties": {
+        "FID": 486,
+        "type": "Repair Store",
+        "X": -10.298214,
+        "Y": -9.3282550000000004
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 487,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.094429999999999,
+          -1.6452699
+        ]
+      },
+      "properties": {
+        "FID": 487,
+        "type": "Kitchen Supply",
+        "X": 20.094429999999999,
+        "Y": -1.6452699
+      }
+    }
+  ]
+}
